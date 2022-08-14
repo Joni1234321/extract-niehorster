@@ -1,0 +1,112 @@
+{
+  "_id": {
+    "$oid": "62f2d2a5546dcc9e7584d127"
+  },
+  "schema_version": 1,
+  "country": "ussr",
+  "year": "1944",
+  "name": "Rifle Division",
+  "link": "44_rd.htm",
+  "type": "rifle",
+  "size": "division",
+  "children": [
+    {
+      "n": 3,
+      "name": "Rifle Regiment",
+      "link": "44_rd_inf-rgt.htm",
+      "type": "rifle",
+      "size": "regiment",
+      "children": [
+        {
+          "n": 3,
+          "name": "Rifle Battalion",
+          "link": "44_rd_inf-bn.htm",
+          "type": "rifle",
+          "size": "battalion",
+          "children": [
+            {
+              "n": 3,
+              "name": "Rifle Company",
+              "link": "44_rd_inf-co.htm",
+              "type": "rifle",
+              "size": "company",
+              "children": []
+            }
+          ]
+        },
+        {
+          "n": 1,
+          "name": "Headquarters, Rifle Regiment",
+          "link": "44_rd_inf-rgt_hqs.htm",
+          "type": "headquarters, rifle",
+          "size": "regiment",
+          "children": []
+        }
+      ]
+    },
+    {
+      "n": 1,
+      "name": "Artillery Regiment",
+      "link": "44_rd_art-rgt.htm",
+      "type": "artillery",
+      "size": "regiment",
+      "children": []
+    },
+    {
+      "n": 1,
+      "name": "Antitank Artillery Battalion",
+      "link": "44_rd_at-bn.html",
+      "type": "anti-tank artillery",
+      "size": "battalion",
+      "children": []
+    },
+    {
+      "n": 1,
+      "name": "Self-Propelled Gun Battalion",
+      "link": "44_rd_su-bn.html",
+      "type": "self-propelled gun",
+      "size": "battalion",
+      "children": []
+    },
+    {
+      "n": 1,
+      "name": "Engineer Battalion",
+      "link": "44_rd_engr-bn.html",
+      "type": "engineer",
+      "size": "battalion",
+      "children": []
+    },
+    {
+      "n": 1,
+      "name": "Antiaircraft Machine Gun Company",
+      "link": "44_rd_aamg.html",
+      "type": "antiaircraft machine gun",
+      "size": "company",
+      "children": []
+    },
+    {
+      "n": 1,
+      "name": "Signal Battalion",
+      "link": "44_rd_signal-bn.html",
+      "type": "signal",
+      "size": "battalion",
+      "children": []
+    },
+    {
+      "n": 1,
+      "name": "Medical Battalion",
+      "link": "44_rd_medic-bn.html",
+      "type": "medical",
+      "size": "battalion",
+      "children": []
+    },
+    {
+      "n": 1,
+      "name": "Division Trains",
+      "link": "44_rd_trains.html",
+      "type": "division",
+      "size": "trains",
+      "children": []
+    }
+  ]
+}

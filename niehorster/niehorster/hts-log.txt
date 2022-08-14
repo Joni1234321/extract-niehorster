@@ -1,0 +1,22 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 08 Aug 2022 16:55:43 at http://niehorster.org/012_ussr/__stavka.htm +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp
+(winhttrack -qYC2%Pns2u1%s%uN0%I0p3DaK0c100H0%kf2A250000%c100#L100000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" -Y http://niehorster.org/012_ussr/__stavka.htm -O1 "F:\Projects\ExtractNiehorster\niehorster\niehorster" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:55:43	Warning: 	* security warning: maximum number of simultaneous connections limited to 8 to avoid server overload
+16:55:43	Warning: 	* security warning: maximum number of connections per second limited to 5.000000 to avoid server overload
+16:56:00	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 3302): niehorster.org/012_ussr/41_oob/navy/_navy_comm.html
+16:59:30	Error: 	"Not Found" (404) at link niehorster.org/012_ussr/43_organ/42-11_corps_tank (from niehorster.org/012_ussr/43_organ/_43_organ_index.html)
+17:00:15	Error: 	"Not Found" (404) at link niehorster.org/012_ussr/010_pix/gray-01.jpg (from niehorster.org/012_ussr/41_oob/navy/baltic-fleet/_bf.html)
+17:04:03	Error: 	"Not Found" (404) at link niehorster.org/012_ussr/42_organ/_abbr_army.html (from niehorster.org/012_ussr/42_organ/42-03_brig-mot/42-03_brig-mot.htm)
+17:04:31	Error: 	"Not Found" (404) at link niehorster.org/012_ussr/44_organ/_abbr_army.html (from niehorster.org/012_ussr/44_organ/brig_tank/44_brig_tk.htm)
+17:05:23	Error: 	"Not Found" (404) at link niehorster.org/012_ussr/45-04-03_Berlin/1-Byelo/Corps_003-Tank-Guards.html (from niehorster.org/012_ussr/45-04-03_Berlin/1-Byelo/Army_03.html)
+17:05:23	Error: 	"Not Found" (404) at link niehorster.org/012_ussr/45-04-03_Berlin/1-Byelo/Corps_008-Tank-Guards.html (from niehorster.org/012_ussr/45-04-03_Berlin/1-Byelo/Army_03.html)
+17:06:51	Error: 	"Not Found" (404) at link niehorster.org/012_ussr/42_organ/42-03_div-rifle/rd_school.html (from niehorster.org/012_ussr/42_organ/42-03_div-rifle/rd_ab-hhb.html)
+17:07:20	Error: 	"Not Found" (404) at link niehorster.org/012_ussr/41_organ/div_rifle/rd_art-bn_light.html (from niehorster.org/012_ussr/41_organ/div_rifle/rd_art-lt-rgt_hqs.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 11 minutes 42 seconds : 1868 links scanned, 1859 files written (9751115 bytes overall), 1852 files updated [7389852 bytes received at 10526 bytes/sec], 3980888 bytes transferred using HTTP compression in 931 files, ratio 28%
+(8 errors, 3 warnings, 0 messages)

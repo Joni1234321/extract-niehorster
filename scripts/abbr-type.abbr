@@ -1,0 +1,40 @@
+heavy, h
+light, l
+medium, m
+
+headquarters, hq
+quartermaster, qm
+
+anti-tank, at, antitank
+anti-air, aa, antiair
+anti-tank-rifle, atr, antitankrifle
+anti-air-machine gun, aamg
+
+reconnaissance, Recon, Rec
+hospital, hos
+transport, tra, tran, trans, transp
+supply, sup, supp
+signal, sig
+service, ser
+maintenance, mai, main, maint
+service supply depot, ssd
+observer, obs, obse
+engineer, eng, engi
+
+cavalry, cav
+motorized, mot
+semi-motorized, sem-mot, semi-mot
+self-propelled, selfpropelled, sp
+
+artillery, art, arty
+howitzer, how
+mortar, mort
+infantry, inf, rifle
+infantry gun, ig
+
+sub-machine gun, smg
+machine gun, mg
+light machine gun, lmg
+heavy machine gun, hmg
+
+ammunition, ammo

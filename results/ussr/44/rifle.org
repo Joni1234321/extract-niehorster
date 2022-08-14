@@ -1,0 +1,108 @@
+Infantry Division,44_rd:
+	"Recon Company" 74,smg:88,lmg:6
+	"semi-mot chemical comp" Ø
+	"mot tra comp" Ø
+	"veterinary plat" Ø
+	"mot baker plat" Ø
+	"field training comp" "Ø,lmg:5,atr:2,50mm mortar:2,82mm mortar:2,45mm atg:2"
+	"judge advocate general comp" Ø
+
+Infantry Regiment,44_rd_inf-rgt:
+	"SMG Company" 9,smg:9 3_3 7,smg:7_4,smg:4
+	"inf gun Company" "19,76mm cannon" 2_2 Ø_Ø "Total of 74 men, 49 horses, 3 carts, 12 wagons, 4 cannons"
+	"Motorized Mortar Company" "8,truck,120mm mortar" 0_6 0_10,truck
+	"AT Company" "6,limber (ammo),45mm atg,horse:2,wagon,horse:2" 3_2 4_5
+	"Supply Company" 39,horse,cart,horse,wagon:29,horse:58
+	"Ammo / Maintenance Squad" 14
+
+HQ Rifle Regiment,44_rd_inf-rgt_hqs:
+	"hq staff Regiment" 31
+	"signal platoon"
+		"Signal radio squad" 9,
+		"Signal wire squad" 21,cart:4,horse:4,
+		"HQ Regiment" 18,horse:3,cart:2,horse:2
+	"Cav Platoon" 25
+	"Infantry Pioneer Platoon" 20,wagon,horse:2
+	"Hospital Platoon" 33,horse,cart:3,horse:3,wagon:6,horse:12
+	"Veterinary Squad" 3,horse
+	"Chemical Squad" 12,cart,horse,wagon:3,horse:6
+
+Infantry Battalion,44_rd_inf-bn:
+	"HQ bat" 7
+		"Signal platoon" 10,cart,horse
+		"Hosp plat" 5,cart,horse
+		"ssd plat" 12,horse:3,cart:3,horse:3,wagon:4,horse:8
+	"MG Company" 5,hmg 3_3 2_3,cart,horse,wagon,horse:2
+	"Infantry Mortar Company" "5,cart,horse,81mm mortar" 3_3 2_4
+	"AT Platoon" "6,45mm atg,limber (ammo),horse:2,wagon,horse:2" 2 5
+	"ATR Platoon" 7,atr:3 3 2,wagon,horse:2
+
+Infantry Company,44_rd_inf-co:
+	"HQ Company" 5
+	"MG Squad" 4,cart,horse,hmg
+	"Hospital Squad" 5
+	"Inf Platoon" 9,smg,lmg 4 4 "" 2
+	"SMG Platoon" 9,smg:9 4 4,smg:4
+
+Arty Reg,44_rd_art-rgt:
+	"HQ Artillery Regiment" 25,horse:6
+	"Art bat" "" "" "" "" 3
+		"hq bat" 7,horse:2
+			"sig plat" 24,horse:2,cart:2,horse:2
+			"cav scout sq" 4,horse:4,smg
+			"art obs plat" 12,horse,cart:2,horse:2
+			"ammo plat" 28,horse,wagon:24,horse:48
+			"tra sq" 10,horse:3,cart:3,horse:3,wagon,horse:2
+		"art battery" "23,horse:3,wagon:4,horse:8,76mm gun:2,limber (ammo):2,horse:12" 2 23,horse:7,cart,horse,smg "" 2
+		"semi-mot h how battery" "23,horse:3,wagon:4,horse:8,122mm gun:2,limber (ammo):2,tractor:2" 2 24,horse:7,cart,horse,tractor,smg "" 2
+	"Service Platoon" 54,horse:7,cart:4,horse:4,wagon:4,horse:8,smg:2
+	"Semi-Motorized Transport Platoon" 46,cart:3,horse:3,wagon:14,horse:28,truck:5
+
+AT Bat,44_rd_at-bn.html:
+	"semi-mot hq bat" 7
+		"mot signal sq" 4,radio:2,truck
+		"cav scout sq" 8,smg:3
+	"Mot AT Company" "6,smg:6,truck,76mm atg" 2_2 13,truck,smg_3 "" 3
+	"Mot ATR Company" 7,truck,smg:4,atr:3 4_3 3_1,smg
+	"Mot TRA Squad" 5,truck
+	"Mot Ammo Squad" 7,truck:3
+
+SP Gun Bat,44_rd_su-bn.html:
+	"hq bat" 7
+		"mot hq bat" 4,truck
+		"signal sq" 5
+		"cav sq" 10
+		"sp sq" 4,su-76m
+	"Sp gun Battery" 4,su-76m 0_5 0_2 "" 3
+	"main plat" 30
+	"ammo plat" 22
+	"fuel plat" 10
+	"supp plat" 10
+	"hosp plat" 7
+
+Eng Bat,44_rd_engr-bn:
+	"hq bat" Ø
+		"hq staff undefined" Ø
+		"semi-mot service and trans sq" Ø
+	"eng comp" Ø 0_3 0_Ø
+
+AA MG Comp,44_rd_aamg:
+	"hq comp" 7
+	"mot aa mg plat" 14,truck:3,aamg:3
+	"sup sq" 6
+
+Sig Bat,44_rd_signal-bn:
+	"Hq bat" 7
+		"command hq undefined" 2
+		"hq staff plat" 18,wagon:2
+		"signal radio plat" "26,truck,special truck"
+		"signal courier plat" 16,horse:5
+	"signal Telephone Comp" Ø 0_4
+	"signal Telephone maint squad" 5
+	"supply squad" 8.car,truck
+
+Hosp comp,44_rd_medic-bn:
+	"hq bat" Ø
+	"Medical Comp" Ø
+	"Field Hospital Plat" Ø
+	"mot Ambulance Plat" Ø
