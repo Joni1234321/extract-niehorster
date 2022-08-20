@@ -1,0 +1,2178 @@
+{
+  "_id": {
+    "$oid": "62f2d2a5546dcc9e7584d127"
+  },
+  "schema_version": 1,
+  "country": "ussr",
+  "year": "1944",
+  "name": "Rifle Division",
+  "link": "44_rd.htm",
+  "type": "rifle",
+  "size": "division",
+  "children": [
+    {
+      "n": 3,
+      "name": "Rifle Regiment",
+      "link": "44_rd_inf-rgt.htm",
+      "type": "rifle",
+      "size": "regiment",
+      "children": [
+        {
+          "n": 3,
+          "name": "Rifle Battalion",
+          "link": "44_rd_inf-bn.htm",
+          "type": "rifle",
+          "size": "battalion",
+          "children": [
+            {
+              "n": 3,
+              "name": "Rifle Company",
+              "link": "44_rd_inf-co.htm",
+              "type": "rifle",
+              "size": "company",
+              "children": [
+                {
+                  "name": "HQ Company",
+                  "type": "headquarters",
+                  "size": "company",
+                  "men": "5",
+                  "equipment": [],
+                  "replicate": [
+                    "HQ Company",
+                    "5"
+                  ]
+                },
+                {
+                  "name": "MG Squad",
+                  "type": "machine gun",
+                  "size": "squad",
+                  "men": "4",
+                  "equipment": [
+                    {
+                      "n": 1,
+                      "name": "cart"
+                    },
+                    {
+                      "n": 1,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 1,
+                      "name": "heavy machine gun"
+                    }
+                  ],
+                  "replicate": [
+                    "MG Squad",
+                    "4,cart:1,horse:1,heavy machine gun:1"
+                  ]
+                },
+                {
+                  "name": "Hospital Squad",
+                  "type": "hospital",
+                  "size": "squad",
+                  "men": "5",
+                  "equipment": [],
+                  "replicate": [
+                    "Hospital Squad",
+                    "5"
+                  ]
+                },
+                {
+                  "n": 2,
+                  "name": "Inf Platoon",
+                  "type": "infantry",
+                  "size": "platoon",
+                  "children": [
+                    {
+                      "n": 1,
+                      "type": "headquarters",
+                      "size": "platoon",
+                      "men": "4",
+                      "equipment": []
+                    },
+                    {
+                      "n": "4",
+                      "type": "infantry",
+                      "size": "squad",
+                      "men": "9",
+                      "equipment": [
+                        {
+                          "n": 1,
+                          "name": "sub-machine gun"
+                        },
+                        {
+                          "n": 1,
+                          "name": "light machine gun"
+                        }
+                      ]
+                    }
+                  ],
+                  "notes": "",
+                  "replicate": [
+                    "Inf Platoon",
+                    "9,sub-machine gun:1,light machine gun:1",
+                    "4",
+                    "4",
+                    "",
+                    "2"
+                  ]
+                },
+                {
+                  "name": "SMG Platoon",
+                  "type": "sub-machine gun",
+                  "size": "platoon",
+                  "children": [
+                    {
+                      "n": 1,
+                      "type": "headquarters",
+                      "size": "platoon",
+                      "men": "4",
+                      "equipment": [
+                        {
+                          "n": 4,
+                          "name": "sub-machine gun"
+                        }
+                      ]
+                    },
+                    {
+                      "n": "4",
+                      "type": "sub-machine gun",
+                      "size": "squad",
+                      "men": "9",
+                      "equipment": [
+                        {
+                          "n": 9,
+                          "name": "sub-machine gun"
+                        }
+                      ]
+                    }
+                  ],
+                  "replicate": [
+                    "SMG Platoon",
+                    "9,sub-machine gun:9",
+                    "4",
+                    "4,sub-machine gun:4"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "HQ bat",
+              "type": "headquarters",
+              "size": "battalion",
+              "men": "7",
+              "equipment": [],
+              "replicate": [
+                "HQ bat",
+                "7"
+              ],
+              "children": [
+                {
+                  "name": "Signal platoon",
+                  "type": "signal",
+                  "size": "platoon",
+                  "men": "10",
+                  "equipment": [
+                    {
+                      "n": 1,
+                      "name": "cart"
+                    },
+                    {
+                      "n": 1,
+                      "name": "horse"
+                    }
+                  ],
+                  "replicate": [
+                    "Signal platoon",
+                    "10,cart:1,horse:1"
+                  ]
+                },
+                {
+                  "name": "Hosp plat",
+                  "type": "hosp",
+                  "size": "platoon",
+                  "men": "5",
+                  "equipment": [
+                    {
+                      "n": 1,
+                      "name": "cart"
+                    },
+                    {
+                      "n": 1,
+                      "name": "horse"
+                    }
+                  ],
+                  "replicate": [
+                    "Hosp plat",
+                    "5,cart:1,horse:1"
+                  ]
+                },
+                {
+                  "name": "ssd plat",
+                  "type": "service supply depot",
+                  "size": "platoon",
+                  "men": "12",
+                  "equipment": [
+                    {
+                      "n": 3,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 3,
+                      "name": "cart"
+                    },
+                    {
+                      "n": 3,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 4,
+                      "name": "wagon"
+                    },
+                    {
+                      "n": 8,
+                      "name": "horse"
+                    }
+                  ],
+                  "replicate": [
+                    "ssd plat",
+                    "12,horse:3,cart:3,horse:3,wagon:4,horse:8"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "MG Company",
+              "type": "machine gun",
+              "size": "company",
+              "children": [
+                {
+                  "n": 1,
+                  "type": "headquarters",
+                  "size": "company",
+                  "men": "2",
+                  "equipment": []
+                },
+                {
+                  "n": "3",
+                  "type": "machine gun",
+                  "size": "platoon",
+                  "children": [
+                    {
+                      "n": 1,
+                      "type": "headquarters",
+                      "size": "platoon",
+                      "men": "3",
+                      "equipment": [
+                        {
+                          "n": 1,
+                          "name": "cart"
+                        },
+                        {
+                          "n": 1,
+                          "name": "horse"
+                        },
+                        {
+                          "n": 1,
+                          "name": "wagon"
+                        },
+                        {
+                          "n": 2,
+                          "name": "horse"
+                        }
+                      ]
+                    },
+                    {
+                      "n": "3",
+                      "type": "machine gun",
+                      "size": "squad",
+                      "men": "5",
+                      "equipment": [
+                        {
+                          "n": 1,
+                          "name": "heavy machine gun"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "replicate": [
+                "MG Company",
+                "5,heavy machine gun:1",
+                "3_3",
+                "2_3,cart:1,horse:1,wagon:1,horse:2"
+              ]
+            },
+            {
+              "name": "Infantry Mortar Company",
+              "type": "infantry mortar",
+              "size": "company",
+              "children": [
+                {
+                  "n": 1,
+                  "type": "headquarters",
+                  "size": "company",
+                  "men": "2",
+                  "equipment": []
+                },
+                {
+                  "n": "3",
+                  "type": "infantry mortar",
+                  "size": "platoon",
+                  "children": [
+                    {
+                      "n": 1,
+                      "type": "headquarters",
+                      "size": "platoon",
+                      "men": "4",
+                      "equipment": []
+                    },
+                    {
+                      "n": "3",
+                      "type": "infantry mortar",
+                      "size": "squad",
+                      "men": "5",
+                      "equipment": [
+                        {
+                          "n": 1,
+                          "name": "cart"
+                        },
+                        {
+                          "n": 1,
+                          "name": "horse"
+                        },
+                        {
+                          "n": 1,
+                          "name": "81mm mortar"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "replicate": [
+                "Infantry Mortar Company",
+                "5,cart:1,horse:1,81mm mortar:1",
+                "3_3",
+                "2_4"
+              ]
+            },
+            {
+              "name": "AT Platoon",
+              "type": "anti-tank",
+              "size": "platoon",
+              "children": [
+                {
+                  "n": 1,
+                  "type": "headquarters",
+                  "size": "platoon",
+                  "men": "5",
+                  "equipment": []
+                },
+                {
+                  "n": "2",
+                  "type": "anti-tank",
+                  "size": "squad",
+                  "men": "6",
+                  "equipment": [
+                    {
+                      "n": 1,
+                      "name": "45mm atg"
+                    },
+                    {
+                      "n": 1,
+                      "name": "limber (ammo)"
+                    },
+                    {
+                      "n": 2,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 1,
+                      "name": "wagon"
+                    },
+                    {
+                      "n": 2,
+                      "name": "horse"
+                    }
+                  ]
+                }
+              ],
+              "replicate": [
+                "AT Platoon",
+                "6,45mm atg:1,limber (ammo):1,horse:2,wagon:1,horse:2",
+                "2",
+                "5"
+              ]
+            },
+            {
+              "name": "ATR Platoon",
+              "type": "anti-tank-rifle",
+              "size": "platoon",
+              "children": [
+                {
+                  "n": 1,
+                  "type": "headquarters",
+                  "size": "platoon",
+                  "men": "2",
+                  "equipment": [
+                    {
+                      "n": 1,
+                      "name": "wagon"
+                    },
+                    {
+                      "n": 2,
+                      "name": "horse"
+                    }
+                  ]
+                },
+                {
+                  "n": "3",
+                  "type": "anti-tank-rifle",
+                  "size": "squad",
+                  "men": "7",
+                  "equipment": [
+                    {
+                      "n": 3,
+                      "name": "anti-tank-rifle"
+                    }
+                  ]
+                }
+              ],
+              "replicate": [
+                "ATR Platoon",
+                "7,anti-tank-rifle:3",
+                "3",
+                "2,wagon:1,horse:2"
+              ]
+            }
+          ]
+        },
+        {
+          "n": 1,
+          "name": "Headquarters, Rifle Regiment",
+          "link": "44_rd_inf-rgt_hqs.htm",
+          "type": "headquarters, rifle",
+          "size": "regiment",
+          "children": [
+            {
+              "name": "hq staff Regiment",
+              "type": "headquarters staff",
+              "size": "regiment",
+              "men": "31",
+              "equipment": [],
+              "replicate": [
+                "hq staff Regiment",
+                "31"
+              ]
+            },
+            {
+              "name": "signal platoon",
+              "type": "signal",
+              "size": "platoon",
+              "men": "Ø",
+              "equipment": [],
+              "replicate": [
+                "signal platoon",
+                "Ø"
+              ],
+              "children": [
+                {
+                  "name": "Signal radio squad",
+                  "type": "signal radio",
+                  "size": "squad",
+                  "men": "9",
+                  "equipment": [
+                    {
+                      "n": 1,
+                      "name": ""
+                    }
+                  ],
+                  "replicate": [
+                    "Signal radio squad",
+                    "9,:1"
+                  ]
+                },
+                {
+                  "name": "Signal wire squad",
+                  "type": "signal wire",
+                  "size": "squad",
+                  "men": "21",
+                  "equipment": [
+                    {
+                      "n": 4,
+                      "name": "cart"
+                    },
+                    {
+                      "n": 4,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 1,
+                      "name": ""
+                    }
+                  ],
+                  "replicate": [
+                    "Signal wire squad",
+                    "21,cart:4,horse:4,:1"
+                  ]
+                },
+                {
+                  "name": "HQ Regiment",
+                  "type": "headquarters",
+                  "size": "regiment",
+                  "men": "18",
+                  "equipment": [
+                    {
+                      "n": 3,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 2,
+                      "name": "cart"
+                    },
+                    {
+                      "n": 2,
+                      "name": "horse"
+                    }
+                  ],
+                  "replicate": [
+                    "HQ Regiment",
+                    "18,horse:3,cart:2,horse:2"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Cav Platoon",
+              "type": "cavalry",
+              "size": "platoon",
+              "men": "25",
+              "equipment": [],
+              "replicate": [
+                "Cav Platoon",
+                "25"
+              ]
+            },
+            {
+              "name": "Infantry Pioneer Platoon",
+              "type": "infantry pioneer",
+              "size": "platoon",
+              "men": "20",
+              "equipment": [
+                {
+                  "n": 1,
+                  "name": "wagon"
+                },
+                {
+                  "n": 2,
+                  "name": "horse"
+                }
+              ],
+              "replicate": [
+                "Infantry Pioneer Platoon",
+                "20,wagon:1,horse:2"
+              ]
+            },
+            {
+              "name": "Hospital Platoon",
+              "type": "hospital",
+              "size": "platoon",
+              "men": "33",
+              "equipment": [
+                {
+                  "n": 1,
+                  "name": "horse"
+                },
+                {
+                  "n": 3,
+                  "name": "cart"
+                },
+                {
+                  "n": 3,
+                  "name": "horse"
+                },
+                {
+                  "n": 6,
+                  "name": "wagon"
+                },
+                {
+                  "n": 12,
+                  "name": "horse"
+                }
+              ],
+              "replicate": [
+                "Hospital Platoon",
+                "33,horse:1,cart:3,horse:3,wagon:6,horse:12"
+              ]
+            },
+            {
+              "name": "Veterinary Squad",
+              "type": "veterinary",
+              "size": "squad",
+              "men": "3",
+              "equipment": [
+                {
+                  "n": 1,
+                  "name": "horse"
+                }
+              ],
+              "replicate": [
+                "Veterinary Squad",
+                "3,horse:1"
+              ]
+            },
+            {
+              "name": "Chemical Squad",
+              "type": "chemical",
+              "size": "squad",
+              "men": "12",
+              "equipment": [
+                {
+                  "n": 1,
+                  "name": "cart"
+                },
+                {
+                  "n": 1,
+                  "name": "horse"
+                },
+                {
+                  "n": 3,
+                  "name": "wagon"
+                },
+                {
+                  "n": 6,
+                  "name": "horse"
+                }
+              ],
+              "replicate": [
+                "Chemical Squad",
+                "12,cart:1,horse:1,wagon:3,horse:6"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SMG Company",
+          "type": "sub-machine gun",
+          "size": "company",
+          "children": [
+            {
+              "n": 1,
+              "type": "headquarters",
+              "size": "company",
+              "men": "7",
+              "equipment": [
+                {
+                  "n": 7,
+                  "name": "sub-machine gun"
+                }
+              ]
+            },
+            {
+              "n": "3",
+              "type": "sub-machine gun",
+              "size": "platoon",
+              "children": [
+                {
+                  "n": 1,
+                  "type": "headquarters",
+                  "size": "platoon",
+                  "men": "4",
+                  "equipment": [
+                    {
+                      "n": 4,
+                      "name": "sub-machine gun"
+                    }
+                  ]
+                },
+                {
+                  "n": "3",
+                  "type": "sub-machine gun",
+                  "size": "squad",
+                  "men": "9",
+                  "equipment": [
+                    {
+                      "n": 9,
+                      "name": "sub-machine gun"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "replicate": [
+            "SMG Company",
+            "9,sub-machine gun:9",
+            "3_3",
+            "7,sub-machine gun:7_4,sub-machine gun:4"
+          ]
+        },
+        {
+          "name": "inf gun Company",
+          "type": "infantry gun",
+          "size": "company",
+          "children": [
+            {
+              "n": 1,
+              "type": "headquarters",
+              "size": "company",
+              "men": "Ã˜",
+              "equipment": []
+            },
+            {
+              "n": "2",
+              "type": "infantry gun",
+              "size": "platoon",
+              "children": [
+                {
+                  "n": 1,
+                  "type": "headquarters",
+                  "size": "platoon",
+                  "men": "Ã˜",
+                  "equipment": []
+                },
+                {
+                  "n": "2",
+                  "type": "infantry gun",
+                  "size": "squad",
+                  "men": "19",
+                  "equipment": [
+                    {
+                      "n": 1,
+                      "name": "76mm cannon"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "notes": "Total of 74 men, 49 horses, 3 carts, 12 wagons, 4 cannons",
+          "replicate": [
+            "inf gun Company",
+            "19,76mm cannon:1",
+            "2_2",
+            "Ã˜_Ã˜",
+            "Total of 74 men, 49 horses, 3 carts, 12 wagons, 4 cannons"
+          ]
+        },
+        {
+          "name": "Motorized Mortar Company",
+          "type": "motorized mortar",
+          "size": "company",
+          "children": [
+            {
+              "n": 1,
+              "type": "headquarters",
+              "size": "company",
+              "men": "0",
+              "equipment": []
+            },
+            {
+              "n": "0",
+              "type": "motorized mortar",
+              "size": "platoon",
+              "children": [
+                {
+                  "n": 1,
+                  "type": "headquarters",
+                  "size": "platoon",
+                  "men": "10",
+                  "equipment": [
+                    {
+                      "n": 1,
+                      "name": "truck"
+                    }
+                  ]
+                },
+                {
+                  "n": "6",
+                  "type": "motorized mortar",
+                  "size": "squad",
+                  "men": "8",
+                  "equipment": [
+                    {
+                      "n": 1,
+                      "name": "truck"
+                    },
+                    {
+                      "n": 1,
+                      "name": "120mm mortar"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "replicate": [
+            "Motorized Mortar Company",
+            "8,truck:1,120mm mortar:1",
+            "0_6",
+            "0_10,truck:1"
+          ]
+        },
+        {
+          "name": "AT Company",
+          "type": "anti-tank",
+          "size": "company",
+          "children": [
+            {
+              "n": 1,
+              "type": "headquarters",
+              "size": "company",
+              "men": "4",
+              "equipment": []
+            },
+            {
+              "n": "3",
+              "type": "anti-tank",
+              "size": "platoon",
+              "children": [
+                {
+                  "n": 1,
+                  "type": "headquarters",
+                  "size": "platoon",
+                  "men": "5",
+                  "equipment": []
+                },
+                {
+                  "n": "2",
+                  "type": "anti-tank",
+                  "size": "squad",
+                  "men": "6",
+                  "equipment": [
+                    {
+                      "n": 1,
+                      "name": "limber (ammo)"
+                    },
+                    {
+                      "n": 1,
+                      "name": "45mm atg"
+                    },
+                    {
+                      "n": 2,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 1,
+                      "name": "wagon"
+                    },
+                    {
+                      "n": 2,
+                      "name": "horse"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "replicate": [
+            "AT Company",
+            "6,limber (ammo):1,45mm atg:1,horse:2,wagon:1,horse:2",
+            "3_2",
+            "4_5"
+          ]
+        },
+        {
+          "name": "Supply Company",
+          "type": "supply",
+          "size": "company",
+          "men": "39",
+          "equipment": [
+            {
+              "n": 1,
+              "name": "horse"
+            },
+            {
+              "n": 1,
+              "name": "cart"
+            },
+            {
+              "n": 1,
+              "name": "horse"
+            },
+            {
+              "n": 29,
+              "name": "wagon"
+            },
+            {
+              "n": 58,
+              "name": "horse"
+            }
+          ],
+          "replicate": [
+            "Supply Company",
+            "39,horse:1,cart:1,horse:1,wagon:29,horse:58"
+          ]
+        },
+        {
+          "name": "Ammo / Maintenance Squad",
+          "type": "ammunition / maintenance",
+          "size": "squad",
+          "men": "14",
+          "equipment": [],
+          "replicate": [
+            "Ammo / Maintenance Squad",
+            "14"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 1,
+      "name": "Artillery Regiment",
+      "link": "44_rd_art-rgt.htm",
+      "type": "artillery",
+      "size": "regiment",
+      "children": [
+        {
+          "name": "HQ Artillery Regiment",
+          "type": "headquarters artillery",
+          "size": "regiment",
+          "men": "25",
+          "equipment": [
+            {
+              "n": 6,
+              "name": "horse"
+            }
+          ],
+          "replicate": [
+            "HQ Artillery Regiment",
+            "25,horse:6"
+          ]
+        },
+        {
+          "n": 3,
+          "name": "Art bat",
+          "type": "artillery",
+          "size": "battalion",
+          "children": [
+            {
+              "name": "hq bat",
+              "type": "headquarters",
+              "size": "battalion",
+              "men": "7",
+              "equipment": [
+                {
+                  "n": 2,
+                  "name": "horse"
+                }
+              ],
+              "replicate": [
+                "hq bat",
+                "7,horse:2"
+              ],
+              "children": [
+                {
+                  "name": "sig plat",
+                  "type": "signal",
+                  "size": "platoon",
+                  "men": "24",
+                  "equipment": [
+                    {
+                      "n": 2,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 2,
+                      "name": "cart"
+                    },
+                    {
+                      "n": 2,
+                      "name": "horse"
+                    }
+                  ],
+                  "replicate": [
+                    "sig plat",
+                    "24,horse:2,cart:2,horse:2"
+                  ]
+                },
+                {
+                  "name": "cav scout sq",
+                  "type": "cavalry scout",
+                  "size": "squad",
+                  "men": "4",
+                  "equipment": [
+                    {
+                      "n": 4,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 1,
+                      "name": "sub-machine gun"
+                    }
+                  ],
+                  "replicate": [
+                    "cav scout sq",
+                    "4,horse:4,sub-machine gun:1"
+                  ]
+                },
+                {
+                  "name": "art obs plat",
+                  "type": "artillery observer",
+                  "size": "platoon",
+                  "men": "12",
+                  "equipment": [
+                    {
+                      "n": 1,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 2,
+                      "name": "cart"
+                    },
+                    {
+                      "n": 2,
+                      "name": "horse"
+                    }
+                  ],
+                  "replicate": [
+                    "art obs plat",
+                    "12,horse:1,cart:2,horse:2"
+                  ]
+                },
+                {
+                  "name": "ammo plat",
+                  "type": "ammunition",
+                  "size": "platoon",
+                  "men": "28",
+                  "equipment": [
+                    {
+                      "n": 1,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 24,
+                      "name": "wagon"
+                    },
+                    {
+                      "n": 48,
+                      "name": "horse"
+                    }
+                  ],
+                  "replicate": [
+                    "ammo plat",
+                    "28,horse:1,wagon:24,horse:48"
+                  ]
+                },
+                {
+                  "name": "tra sq",
+                  "type": "transport",
+                  "size": "squad",
+                  "men": "10",
+                  "equipment": [
+                    {
+                      "n": 3,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 3,
+                      "name": "cart"
+                    },
+                    {
+                      "n": 3,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 1,
+                      "name": "wagon"
+                    },
+                    {
+                      "n": 2,
+                      "name": "horse"
+                    }
+                  ],
+                  "replicate": [
+                    "tra sq",
+                    "10,horse:3,cart:3,horse:3,wagon:1,horse:2"
+                  ]
+                }
+              ]
+            },
+            {
+              "n": 2,
+              "name": "art battery",
+              "type": "artillery",
+              "size": "battery",
+              "children": [
+                {
+                  "n": 1,
+                  "type": "headquarters",
+                  "size": "battery",
+                  "men": "23",
+                  "equipment": [
+                    {
+                      "n": 7,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 1,
+                      "name": "cart"
+                    },
+                    {
+                      "n": 1,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 1,
+                      "name": "sub-machine gun"
+                    }
+                  ]
+                },
+                {
+                  "n": "2",
+                  "type": "artillery",
+                  "size": "platoon",
+                  "men": "23",
+                  "equipment": [
+                    {
+                      "n": 3,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 4,
+                      "name": "wagon"
+                    },
+                    {
+                      "n": 8,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 2,
+                      "name": "76mm gun"
+                    },
+                    {
+                      "n": 2,
+                      "name": "limber (ammo)"
+                    },
+                    {
+                      "n": 12,
+                      "name": "horse"
+                    }
+                  ]
+                }
+              ],
+              "notes": "",
+              "replicate": [
+                "art battery",
+                "23,horse:3,wagon:4,horse:8,76mm gun:2,limber (ammo):2,horse:12",
+                "2",
+                "23,horse:7,cart:1,horse:1,sub-machine gun:1",
+                "",
+                "2"
+              ]
+            },
+            {
+              "n": 2,
+              "name": "semi-mot h how battery",
+              "type": "semi-motorized heavy howitzer",
+              "size": "battery",
+              "children": [
+                {
+                  "n": 1,
+                  "type": "headquarters",
+                  "size": "battery",
+                  "men": "24",
+                  "equipment": [
+                    {
+                      "n": 7,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 1,
+                      "name": "cart"
+                    },
+                    {
+                      "n": 1,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 1,
+                      "name": "tractor"
+                    },
+                    {
+                      "n": 1,
+                      "name": "sub-machine gun"
+                    }
+                  ]
+                },
+                {
+                  "n": "2",
+                  "type": "semi-motorized heavy howitzer",
+                  "size": "platoon",
+                  "men": "23",
+                  "equipment": [
+                    {
+                      "n": 3,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 4,
+                      "name": "wagon"
+                    },
+                    {
+                      "n": 8,
+                      "name": "horse"
+                    },
+                    {
+                      "n": 2,
+                      "name": "122mm gun"
+                    },
+                    {
+                      "n": 2,
+                      "name": "limber (ammo)"
+                    },
+                    {
+                      "n": 2,
+                      "name": "tractor"
+                    }
+                  ]
+                }
+              ],
+              "notes": "",
+              "replicate": [
+                "semi-mot h how battery",
+                "23,horse:3,wagon:4,horse:8,122mm gun:2,limber (ammo):2,tractor:2",
+                "2",
+                "24,horse:7,cart:1,horse:1,tractor:1,sub-machine gun:1",
+                "",
+                "2"
+              ]
+            }
+          ],
+          "notes": "",
+          "replicate": [
+            "Art bat",
+            "Ø",
+            "",
+            "Ø",
+            "",
+            "3"
+          ]
+        },
+        {
+          "name": "Service Platoon",
+          "type": "service",
+          "size": "platoon",
+          "men": "54",
+          "equipment": [
+            {
+              "n": 7,
+              "name": "horse"
+            },
+            {
+              "n": 4,
+              "name": "cart"
+            },
+            {
+              "n": 4,
+              "name": "horse"
+            },
+            {
+              "n": 4,
+              "name": "wagon"
+            },
+            {
+              "n": 8,
+              "name": "horse"
+            },
+            {
+              "n": 2,
+              "name": "sub-machine gun"
+            }
+          ],
+          "replicate": [
+            "Service Platoon",
+            "54,horse:7,cart:4,horse:4,wagon:4,horse:8,sub-machine gun:2"
+          ]
+        },
+        {
+          "name": "Semi-Motorized Transport Platoon",
+          "type": "semi-motorized transport",
+          "size": "platoon",
+          "men": "46",
+          "equipment": [
+            {
+              "n": 3,
+              "name": "cart"
+            },
+            {
+              "n": 3,
+              "name": "horse"
+            },
+            {
+              "n": 14,
+              "name": "wagon"
+            },
+            {
+              "n": 28,
+              "name": "horse"
+            },
+            {
+              "n": 5,
+              "name": "truck"
+            }
+          ],
+          "replicate": [
+            "Semi-Motorized Transport Platoon",
+            "46,cart:3,horse:3,wagon:14,horse:28,truck:5"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 1,
+      "name": "Antitank Artillery Battalion",
+      "link": "44_rd_at-bn.html",
+      "type": "anti-tank artillery",
+      "size": "battalion",
+      "children": [
+        {
+          "name": "semi-mot hq bat",
+          "type": "semi-motorized headquarters",
+          "size": "battalion",
+          "men": "7",
+          "equipment": [],
+          "replicate": [
+            "semi-mot hq bat",
+            "7"
+          ],
+          "children": [
+            {
+              "name": "mot signal sq",
+              "type": "motorized signal",
+              "size": "squad",
+              "men": "4",
+              "equipment": [
+                {
+                  "n": 2,
+                  "name": "radio"
+                },
+                {
+                  "n": 1,
+                  "name": "truck"
+                }
+              ],
+              "replicate": [
+                "mot signal sq",
+                "4,radio:2,truck:1"
+              ]
+            },
+            {
+              "name": "cav scout sq",
+              "type": "cavalry scout",
+              "size": "squad",
+              "men": "8",
+              "equipment": [
+                {
+                  "n": 3,
+                  "name": "sub-machine gun"
+                }
+              ],
+              "replicate": [
+                "cav scout sq",
+                "8,sub-machine gun:3"
+              ]
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "name": "Mot AT Company",
+          "type": "motorized anti-tank",
+          "size": "company",
+          "children": [
+            {
+              "n": 1,
+              "type": "headquarters",
+              "size": "company",
+              "men": "13",
+              "equipment": [
+                {
+                  "n": 1,
+                  "name": "truck"
+                },
+                {
+                  "n": 1,
+                  "name": "sub-machine gun"
+                }
+              ]
+            },
+            {
+              "n": "2",
+              "type": "motorized anti-tank",
+              "size": "platoon",
+              "children": [
+                {
+                  "n": 1,
+                  "type": "headquarters",
+                  "size": "platoon",
+                  "men": "3",
+                  "equipment": []
+                },
+                {
+                  "n": "2",
+                  "type": "motorized anti-tank",
+                  "size": "squad",
+                  "men": "6",
+                  "equipment": [
+                    {
+                      "n": 6,
+                      "name": "sub-machine gun"
+                    },
+                    {
+                      "n": 1,
+                      "name": "truck"
+                    },
+                    {
+                      "n": 1,
+                      "name": "76mm atg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "notes": "",
+          "replicate": [
+            "Mot AT Company",
+            "6,sub-machine gun:6,truck:1,76mm atg:1",
+            "2_2",
+            "13,truck:1,sub-machine gun:1_3",
+            "",
+            "3"
+          ]
+        },
+        {
+          "name": "Mot ATR Company",
+          "type": "motorized anti-tank-rifle",
+          "size": "company",
+          "children": [
+            {
+              "n": 1,
+              "type": "headquarters",
+              "size": "company",
+              "men": "3",
+              "equipment": []
+            },
+            {
+              "n": "4",
+              "type": "motorized anti-tank-rifle",
+              "size": "platoon",
+              "children": [
+                {
+                  "n": 1,
+                  "type": "headquarters",
+                  "size": "platoon",
+                  "men": "1",
+                  "equipment": [
+                    {
+                      "n": 1,
+                      "name": "sub-machine gun"
+                    }
+                  ]
+                },
+                {
+                  "n": "3",
+                  "type": "motorized anti-tank-rifle",
+                  "size": "squad",
+                  "men": "7",
+                  "equipment": [
+                    {
+                      "n": 1,
+                      "name": "truck"
+                    },
+                    {
+                      "n": 4,
+                      "name": "sub-machine gun"
+                    },
+                    {
+                      "n": 3,
+                      "name": "anti-tank-rifle"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "replicate": [
+            "Mot ATR Company",
+            "7,truck:1,sub-machine gun:4,anti-tank-rifle:3",
+            "4_3",
+            "3_1,sub-machine gun:1"
+          ]
+        },
+        {
+          "name": "Mot TRA Squad",
+          "type": "motorized transport",
+          "size": "squad",
+          "men": "5",
+          "equipment": [
+            {
+              "n": 1,
+              "name": "truck"
+            }
+          ],
+          "replicate": [
+            "Mot TRA Squad",
+            "5,truck:1"
+          ]
+        },
+        {
+          "name": "Mot Ammo Squad",
+          "type": "motorized ammunition",
+          "size": "squad",
+          "men": "7",
+          "equipment": [
+            {
+              "n": 3,
+              "name": "truck"
+            }
+          ],
+          "replicate": [
+            "Mot Ammo Squad",
+            "7,truck:3"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 1,
+      "name": "Self-Propelled Gun Battalion",
+      "link": "44_rd_su-bn.html",
+      "type": "self-propelled gun",
+      "size": "battalion",
+      "children": [
+        {
+          "name": "hq bat",
+          "type": "headquarters",
+          "size": "battalion",
+          "men": "7",
+          "equipment": [],
+          "replicate": [
+            "hq bat",
+            "7"
+          ],
+          "children": [
+            {
+              "name": "mot hq bat",
+              "type": "motorized headquarters",
+              "size": "battalion",
+              "men": "4",
+              "equipment": [
+                {
+                  "n": 1,
+                  "name": "truck"
+                }
+              ],
+              "replicate": [
+                "mot hq bat",
+                "4,truck:1"
+              ]
+            },
+            {
+              "name": "signal sq",
+              "type": "signal",
+              "size": "squad",
+              "men": "5",
+              "equipment": [],
+              "replicate": [
+                "signal sq",
+                "5"
+              ]
+            },
+            {
+              "name": "cav sq",
+              "type": "cavalry",
+              "size": "squad",
+              "men": "10",
+              "equipment": [],
+              "replicate": [
+                "cav sq",
+                "10"
+              ]
+            },
+            {
+              "name": "sp sq",
+              "type": "self-propelled",
+              "size": "squad",
+              "men": "4",
+              "equipment": [
+                {
+                  "n": 1,
+                  "name": "su-76m"
+                }
+              ],
+              "replicate": [
+                "sp sq",
+                "4,su-76m:1"
+              ]
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "name": "Sp gun Battery",
+          "type": "self-propelled gun",
+          "size": "battery",
+          "children": [
+            {
+              "n": 1,
+              "type": "headquarters",
+              "size": "battery",
+              "men": "0",
+              "equipment": []
+            },
+            {
+              "n": "0",
+              "type": "self-propelled gun",
+              "size": "platoon",
+              "children": [
+                {
+                  "n": 1,
+                  "type": "headquarters",
+                  "size": "platoon",
+                  "men": "2",
+                  "equipment": []
+                },
+                {
+                  "n": "5",
+                  "type": "self-propelled gun",
+                  "size": "squad",
+                  "men": "4",
+                  "equipment": [
+                    {
+                      "n": 1,
+                      "name": "su-76m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "notes": "",
+          "replicate": [
+            "Sp gun Battery",
+            "4,su-76m:1",
+            "0_5",
+            "0_2",
+            "",
+            "3"
+          ]
+        },
+        {
+          "name": "main plat",
+          "type": "maintenance",
+          "size": "platoon",
+          "men": "30",
+          "equipment": [],
+          "replicate": [
+            "main plat",
+            "30"
+          ]
+        },
+        {
+          "name": "ammo plat",
+          "type": "ammunition",
+          "size": "platoon",
+          "men": "22",
+          "equipment": [],
+          "replicate": [
+            "ammo plat",
+            "22"
+          ]
+        },
+        {
+          "name": "fuel plat",
+          "type": "fuel",
+          "size": "platoon",
+          "men": "10",
+          "equipment": [],
+          "replicate": [
+            "fuel plat",
+            "10"
+          ]
+        },
+        {
+          "name": "supp plat",
+          "type": "supply",
+          "size": "platoon",
+          "men": "10",
+          "equipment": [],
+          "replicate": [
+            "supp plat",
+            "10"
+          ]
+        },
+        {
+          "name": "hosp plat",
+          "type": "hosp",
+          "size": "platoon",
+          "men": "7",
+          "equipment": [],
+          "replicate": [
+            "hosp plat",
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 1,
+      "name": "Engineer Battalion",
+      "link": "44_rd_engr-bn.html",
+      "type": "engineer",
+      "size": "battalion",
+      "children": [
+        {
+          "name": "hq bat",
+          "type": "headquarters",
+          "size": "battalion",
+          "men": "Ã˜",
+          "equipment": [],
+          "replicate": [
+            "hq bat",
+            "Ã˜"
+          ],
+          "children": [
+            {
+              "name": "hq staff undefined",
+              "type": "headquarters staff",
+              "size": "undefined",
+              "men": "Ã˜",
+              "equipment": [],
+              "replicate": [
+                "hq staff undefined",
+                "Ã˜"
+              ]
+            },
+            {
+              "name": "semi-mot service and trans sq",
+              "type": "semi-motorized service and transport",
+              "size": "squad",
+              "men": "Ã˜",
+              "equipment": [],
+              "replicate": [
+                "semi-mot service and trans sq",
+                "Ã˜"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "eng comp",
+          "type": "engineer",
+          "size": "company",
+          "children": [
+            {
+              "n": 1,
+              "type": "headquarters",
+              "size": "company",
+              "men": "0",
+              "equipment": []
+            },
+            {
+              "n": "0",
+              "type": "engineer",
+              "size": "platoon",
+              "children": [
+                {
+                  "n": 1,
+                  "type": "headquarters",
+                  "size": "platoon",
+                  "men": "Ã˜",
+                  "equipment": []
+                },
+                {
+                  "n": "3",
+                  "type": "engineer",
+                  "size": "squad",
+                  "men": "Ã˜",
+                  "equipment": []
+                }
+              ]
+            }
+          ],
+          "replicate": [
+            "eng comp",
+            "Ã˜",
+            "0_3",
+            "0_Ã˜"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 1,
+      "name": "Antiaircraft Machine Gun Company",
+      "link": "44_rd_aamg.html",
+      "type": "antiaircraft machine gun",
+      "size": "company",
+      "children": [
+        {
+          "name": "hq comp",
+          "type": "headquarters",
+          "size": "company",
+          "men": "7",
+          "equipment": [],
+          "replicate": [
+            "hq comp",
+            "7"
+          ]
+        },
+        {
+          "name": "mot aa mg plat",
+          "type": "motorized anti-air machine gun",
+          "size": "platoon",
+          "men": "14",
+          "equipment": [
+            {
+              "n": 3,
+              "name": "truck"
+            },
+            {
+              "n": 3,
+              "name": "anti-air-machine gun"
+            }
+          ],
+          "replicate": [
+            "mot aa mg plat",
+            "14,truck:3,anti-air-machine gun:3"
+          ]
+        },
+        {
+          "name": "sup sq",
+          "type": "supply",
+          "size": "squad",
+          "men": "6",
+          "equipment": [],
+          "replicate": [
+            "sup sq",
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 1,
+      "name": "Signal Battalion",
+      "link": "44_rd_signal-bn.html",
+      "type": "signal",
+      "size": "battalion",
+      "children": [
+        {
+          "name": "Hq bat",
+          "type": "headquarters",
+          "size": "battalion",
+          "men": "7",
+          "equipment": [],
+          "replicate": [
+            "Hq bat",
+            "7"
+          ],
+          "children": [
+            {
+              "name": "command hq undefined",
+              "type": "command headquarters",
+              "size": "undefined",
+              "men": "2",
+              "equipment": [],
+              "replicate": [
+                "command hq undefined",
+                "2"
+              ]
+            },
+            {
+              "name": "hq staff plat",
+              "type": "headquarters staff",
+              "size": "platoon",
+              "men": "18",
+              "equipment": [
+                {
+                  "n": 2,
+                  "name": "wagon"
+                }
+              ],
+              "replicate": [
+                "hq staff plat",
+                "18,wagon:2"
+              ]
+            },
+            {
+              "name": "signal radio plat",
+              "type": "signal radio",
+              "size": "platoon",
+              "men": "26",
+              "equipment": [
+                {
+                  "n": 1,
+                  "name": "truck"
+                },
+                {
+                  "n": 1,
+                  "name": "special truck"
+                }
+              ],
+              "replicate": [
+                "signal radio plat",
+                "26,truck:1,special truck:1"
+              ]
+            },
+            {
+              "name": "signal courier plat",
+              "type": "signal courier",
+              "size": "platoon",
+              "men": "16",
+              "equipment": [
+                {
+                  "n": 5,
+                  "name": "horse"
+                }
+              ],
+              "replicate": [
+                "signal courier plat",
+                "16,horse:5"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "signal Telephone Comp",
+          "type": "signal telephone",
+          "size": "company",
+          "children": [
+            {
+              "n": 1,
+              "type": "headquarters",
+              "size": "company",
+              "men": 0,
+              "equipment": []
+            },
+            {
+              "n": "0",
+              "type": "signal telephone",
+              "size": "platoon",
+              "children": [
+                {
+                  "n": 1,
+                  "type": "headquarters",
+                  "size": "platoon",
+                  "men": 0,
+                  "equipment": []
+                },
+                {
+                  "n": "4",
+                  "type": "signal telephone",
+                  "size": "squad",
+                  "men": "Ã˜",
+                  "equipment": []
+                }
+              ]
+            }
+          ],
+          "replicate": [
+            "signal Telephone Comp",
+            "Ã˜",
+            "0_4"
+          ]
+        },
+        {
+          "name": "signal Telephone maint squad",
+          "type": "signal telephone maintenance",
+          "size": "squad",
+          "men": "5",
+          "equipment": [],
+          "replicate": [
+            "signal Telephone maint squad",
+            "5"
+          ]
+        },
+        {
+          "name": "supply squad",
+          "type": "supply",
+          "size": "squad",
+          "men": "8.car",
+          "equipment": [
+            {
+              "n": 1,
+              "name": "truck"
+            }
+          ],
+          "replicate": [
+            "supply squad",
+            "8.car,truck:1"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 1,
+      "name": "Medical Battalion",
+      "link": "44_rd_medic-bn.html",
+      "type": "medical",
+      "size": "battalion",
+      "children": [
+        {
+          "name": "hq bat",
+          "type": "headquarters",
+          "size": "battalion",
+          "men": "Ã˜",
+          "equipment": [],
+          "replicate": [
+            "hq bat",
+            "Ã˜"
+          ]
+        },
+        {
+          "name": "Medical Comp",
+          "type": "medical",
+          "size": "company",
+          "men": "Ã˜",
+          "equipment": [],
+          "replicate": [
+            "Medical Comp",
+            "Ã˜"
+          ]
+        },
+        {
+          "name": "Field Hospital Plat",
+          "type": "field hospital",
+          "size": "platoon",
+          "men": "Ã˜",
+          "equipment": [],
+          "replicate": [
+            "Field Hospital Plat",
+            "Ã˜"
+          ]
+        },
+        {
+          "name": "mot Ambulance Plat",
+          "type": "motorized ambulance",
+          "size": "platoon",
+          "men": "Ã˜",
+          "equipment": [],
+          "replicate": [
+            "mot Ambulance Plat",
+            "Ã˜"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 1,
+      "name": "Division Trains",
+      "link": "44_rd_trains.html",
+      "type": "division",
+      "size": "trains",
+      "children": []
+    },
+    {
+      "name": "Recon Company",
+      "type": "reconnaissance",
+      "size": "company",
+      "men": "74",
+      "equipment": [
+        {
+          "n": 88,
+          "name": "sub-machine gun"
+        },
+        {
+          "n": 6,
+          "name": "light machine gun"
+        }
+      ],
+      "replicate": [
+        "Recon Company",
+        "74,sub-machine gun:88,light machine gun:6"
+      ]
+    },
+    {
+      "name": "semi-mot chemical comp",
+      "type": "semi-motorized chemical",
+      "size": "company",
+      "men": "Ã˜",
+      "equipment": [],
+      "replicate": [
+        "semi-mot chemical comp",
+        "Ã˜"
+      ]
+    },
+    {
+      "name": "mot tra comp",
+      "type": "motorized transport",
+      "size": "company",
+      "men": "Ã˜",
+      "equipment": [],
+      "replicate": [
+        "mot tra comp",
+        "Ã˜"
+      ]
+    },
+    {
+      "name": "veterinary plat",
+      "type": "veterinary",
+      "size": "platoon",
+      "men": "Ã˜",
+      "equipment": [],
+      "replicate": [
+        "veterinary plat",
+        "Ã˜"
+      ]
+    },
+    {
+      "name": "mot baker plat",
+      "type": "motorized baker",
+      "size": "platoon",
+      "men": "Ã˜",
+      "equipment": [],
+      "replicate": [
+        "mot baker plat",
+        "Ã˜"
+      ]
+    },
+    {
+      "name": "field training comp",
+      "type": "field training",
+      "size": "company",
+      "men": "Ã˜",
+      "equipment": [
+        {
+          "n": 5,
+          "name": "light machine gun"
+        },
+        {
+          "n": 2,
+          "name": "anti-tank-rifle"
+        },
+        {
+          "n": 2,
+          "name": "50mm mortar"
+        },
+        {
+          "n": 2,
+          "name": "82mm mortar"
+        },
+        {
+          "n": 2,
+          "name": "45mm atg"
+        }
+      ],
+      "replicate": [
+        "field training comp",
+        "Ã˜,light machine gun:5,anti-tank-rifle:2,50mm mortar:2,82mm mortar:2,45mm atg:2"
+      ]
+    },
+    {
+      "name": "judge advocate general comp",
+      "type": "judge advocate general",
+      "size": "company",
+      "men": "Ã˜",
+      "equipment": [],
+      "replicate": [
+        "judge advocate general comp",
+        "Ã˜"
+      ]
+    }
+  ]
+}
