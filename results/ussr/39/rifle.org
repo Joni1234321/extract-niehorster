@@ -1,0 +1,12 @@
+"inf div" Ø 3
+    "l art reg"
+    "h art reg"
+    "armour bat"
+    "mot at bat"
+    "armoured recon bat"
+    "semi-mot engineer bat"
+    "mot sig bat"
+    "semi-mot field hosp bat"
+    "semi-mot supply bat"
+    "mot bakery plat"
+    "Field post unknown"

@@ -81,6 +81,7 @@ def dfs(generated: dict, child: dict, ref_link: str):
 
     target["children"] += child["children"]
 
+
 def generate_child(child):
     print(child)
     if type(child) is list:
@@ -93,10 +94,12 @@ def generate_child(child):
     child["children"] = children
     return child
 
+
 def merge_obj_with_generated_org(obj: dict, generated: dict):
     for child in obj["children"]:
         dfs(generated, generate_child(child), child["ref_link"])
     return generated
+
 
 
 obj = create_objects_from_path(sys.argv[1])
