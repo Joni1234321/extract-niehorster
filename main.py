@@ -4,6 +4,7 @@ from typing import Dict
 from urllib.request import urlopen
 from Organization import Organization
 from bs4 import BeautifulSoup
+import pyperclip
 import sys
 
 #http://niehorster.org/011_germany/41-oob/ag-mitte/_ag_mitte.html
@@ -28,10 +29,9 @@ class Main:
             # Use cp1252 instead of UTF-8 because UTF-8 gives an error
             return html_bytes.decode("cp1252")
         else:
-            f = open(self.disk_url / unit_url)
-            txt = f.read()
-            f.close()
-            return txt
+            with open(self.disk_url / unit_url) as f:
+                txt = f.read()
+                return txt
 
     def get_areas(self, url: str):
         soup = BeautifulSoup(self.read_file(url), "html.parser")
@@ -86,7 +86,7 @@ class Main:
         # Important information
         json_out = {"schema_version": 1, "country": COUNTRY, "year": YEAR}
         json_out.update(self.unit_to_json(self.unit_url))
-        return json.dumps(json_out)
+        return json.dumps(json_out, indent=4)
 
     # to json
     def unit_to_json(self, url: str):
@@ -108,3 +108,4 @@ class Main:
 # Run program
 main = Main(NAME, TOTAL_URL)
 print(main.dumps())
+pyperclip.copy(main.dumps())

@@ -1,0 +1,13 @@
+{
+    "_id": {
+      "$oid": "6300c05cb647d9bc35c478ed"
+    },
+    "schema_version": 1,
+    "country": "ussr",
+    "year": "1939",
+    "name": "Tank Brigade",
+    "link": "39_tank-brig.htm",
+    "type": "tank",
+    "size": "brigade",
+    "children": []
+}

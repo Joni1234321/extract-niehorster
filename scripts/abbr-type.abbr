@@ -33,8 +33,11 @@ infantry, inf, rifle
 infantry gun, ig
 
 sub-machine gun, smg
-machine gun, mg
+machine gun, mamrg
 light machine gun, lmg
 heavy machine gun, hmg
+
+armor, tank, arm, armour
+armored, armoured
 
 ammunition, ammo

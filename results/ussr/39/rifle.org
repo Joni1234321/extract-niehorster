@@ -1,12 +1,13 @@
-"inf div" Ø 3
-    "l art reg"
-    "h art reg"
-    "armour bat"
-    "mot at bat"
-    "armoured recon bat"
-    "semi-mot engineer bat"
-    "mot sig bat"
-    "semi-mot field hosp bat"
-    "semi-mot supply bat"
-    "mot bakery plat"
-    "Field post unknown"
+Infantry Division,39_rifle-div:
+	"inf reg" Ø "" "" "" 3
+	"l art reg" Ø
+	"h art reg" Ø
+	"armour bat" Ø
+	"mot at bat" Ø
+	"armoured recon bat" Ø
+	"semi-mot engineer bat" Ø
+	"mot sig bat" Ø
+	"semi-mot field hosp bat" Ø
+	"semi-mot supply bat" Ø
+	"mot bakery plat" Ø
+	"Field post unknown" Ø

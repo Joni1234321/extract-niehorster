@@ -5,25 +5,21 @@ _abbrs: Dict[str, str] = {}
 
 
 def _add_abbreviations(path: str):
-    file = open(pathlib.Path(__file__).parent / path, "r")
+    with open(pathlib.Path(__file__).parent / path, "r") as file:
+        lines = file.read().splitlines()
+        for line in lines:
+            if line == "":
+                continue
 
-    lines = file.read().splitlines()
-    for line in lines:
-        if line == "":
-            continue
+            full, *abbreviations = line.split(",")
 
-        full, *abbreviations = line.split(",")
+            for abbr in abbreviations:
+                key = abbr.strip().lower()
+                if key in _abbrs.keys():
+                    print("COLLISION WITH" + key)
+                    quit()
 
-        for abbr in abbreviations:
-            key = abbr.strip().lower()
-            if key in _abbrs.keys():
-                print("COLLISION WITH" + key)
-                quit()
-
-            _abbrs[key] = full
-
-    file.close()
-
+                _abbrs[key] = full
 
 _add_abbreviations("scripts/abbr-type.abbr")
 _add_abbreviations("scripts/abbr-size.abbr")

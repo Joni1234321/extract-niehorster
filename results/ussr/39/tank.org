@@ -1,0 +1,28 @@
+Tank Brig,39_tank-brig:
+	"arm hq bri" Ø
+	"arm bat" 53,tank:37 3 14,tank:3 "Tank either BT or T-26" 4
+		"arm car rec plat" "10,armored car,t-37"
+		"mot sig plat" 24
+		"mot service unknown" 60
+	"mot inf bat" 160,lmg:9,hmg:2 3 19
+		"mot at plat" "31,45mm atg:3"
+		"mot sig plat" 32
+		"mot service unknown" 78
+		"mot aa mg plat" 19,aamg:3
+	"mot rec bat" Ø 0 13
+		"mot inf plat" 44,lmg:2,hmg:2
+		"arm car plat" "55,armored car:16"
+		"arm plat" 53,t-37:16
+		"mot sig plat" 18
+		"mot service unknown" 43
+	"mot eng bat" 280
+	"mot inf plat" 33,lmg:2 0 "" "hqs Defense"
+	"mot aamg comp" 30,aamg:5
+	"mot chemical" 90
+	"mot sig comp" 130
+	"mot main bat" 200
+	"mot arm main recovery bat" Ø Ø
+	"mot tra bat" 200
+	"arm comp" 100,tank:8 0 "" "Reserve"
+	"mot hosp comp" 60
+	"mot supp bat" 200

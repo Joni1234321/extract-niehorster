@@ -123,8 +123,12 @@ def create_obj(name: str, last_child_equipment: Dict = None, sub_units: List[int
 
         for i in range(len(sub_units)):
             # Skip units if they are 0
-            if sub_units[i] == 0:
+            try:
+                if int(sub_units[i]) == 0:
+                    continue
+            except:
                 continue
+
 
             hq_unit = {"n": 1, "type": elongate_word("hq"), "size": last_child["size"], "men": 0, "equipment": []}
             sub_unit = {"n": sub_units[i], "type": type, "size": sizes[from_size - i - 1]}
@@ -134,7 +138,7 @@ def create_obj(name: str, last_child_equipment: Dict = None, sub_units: List[int
                 hq_unit.update(hq_equipment[i])
 
             # Set children
-            last_child["children"] = [hq_unit, sub_unit]
+                last_child["children"] = [hq_unit, sub_unit]
 
             last_child = sub_unit
 

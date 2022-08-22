@@ -1,3 +1,13 @@
 {
-
+  "_id": {
+    "$oid": "62fedbf273c7a53fdef5cea8"
+  },
+  "schema_version": 1,
+  "name": "Rifle Division",
+  "link": "39_rifle-div",
+  "type": "infantry",
+  "size": "division",
+  "country": "ussr",
+  "year": "1939",
+  "children": []
 }
