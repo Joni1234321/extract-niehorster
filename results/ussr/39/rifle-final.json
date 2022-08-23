@@ -39,13 +39,13 @@
             ]
         },
         {
-            "name": "h art reg",
-            "type": "heavy artillery",
+            "name": "how art reg",
+            "type": "howitzer artillery",
             "size": "regiment",
             "men": "\u00c3\u02dc",
             "equipment": [],
             "replicate": [
-                "h art reg",
+                "how art reg",
                 "\u00c3\u02dc"
             ]
         },

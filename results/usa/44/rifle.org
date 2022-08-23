@@ -1,7 +1,0 @@
-Infantry Division,div-inf:
-	"mot art bri"
-		"mot art bat" 0 0 0 "" 3
-			"mot art battery" "10,2.5ton truck (cargo),105mm how,2.36inch atrl" 1_4 "12_3,0.25ton truck,0.75ton carrier (cmd)"
-				"mot hq" 3,truck,carr
-			"hq bat" 15
-		"mot m art bat"

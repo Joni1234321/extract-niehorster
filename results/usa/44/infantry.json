@@ -1,0 +1,13 @@
+{
+    "_id": {
+        "$oid": "63035c2fbb33d1c8cf10d3a5"
+    },
+    "schema_version": 1,
+    "country": "usa",
+    "year": "1944",
+    "name": "Infantry Division",
+    "link": "div-inf.html",
+    "type": "infantry",
+    "size": "division",
+    "children": []
+}

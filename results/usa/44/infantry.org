@@ -1,0 +1,40 @@
+Infantry Division,div-inf:
+	"mot art bri"
+		"mot art bat" 0 0 0 "" 3
+			"mot art battery" 0 0 0 "" 3
+				"hq battery" 12
+				"mot battery detail unknown" "26,.25t truck:2,.75t carr (cmd),.75t carr (wpns):2,2.5t truck (cargo),.25t trailer,mg:2,atrl:2"
+				"mot art plat" "10,2.5ton truck (cargo),105mm how,atrl" 4 "3,0.25t truck,0.75t carrier (cmd)"
+					"mot ammo sq" "10,2.5t truck (cargo):2,2t trailer (ammo):2,atrl,mg:2"
+				"mot maint sq" "9,.75t carr (wpns),2.5t truck (kitchen),.25t trailer,1t trailer (cargo),atrl"
+			"mot service battery"
+				"mot hq battery" "12,.75 truck (cmd)"
+				"mot service plat"
+					"mot bat supply sq" "6,2.5t truck (cargo),1t trailer (cargo),atrl"
+					"mot bat maint sq" "10,.25t truck,2.5t truck (cargo):2,1t trailer (cargo),mg,atrl"
+				"mot ammo train plat" "10,2.5t truck (cargo):3,2t trailer (ammo):3,atrl:2" 3 "8,.25 truck,.75t carr (cmd),mg:2"
+				"mot battery maint sq" "11,.75t carr (wpns),2.5t truck (kitchen),.25t trailer,1t trailer (cargo),mg,atrl:2"
+			"hq bat" 8
+			"mot hq bat"
+				"hq battery" 15
+				"mot maint sq" "16,.25t truck:2,.75t carr (wpns):2,2.5t truck (kitchen),.25t trailer:2,1t trailer (cargo),mg:2,atrl:2"
+				"mot personnel sq" 15
+				"mot operations plat"
+					"mot operations-&-fire-direction sq" "22,.25t truck:2,.75t carr (cmd):3,2.5t truck (cargo),1t trailer (cargo),mg:2,atrl:2,aircraft (liaison):2"
+					"mot instruments-&-survey sq" "8,.25t truck,.75t carr (wpns)"
+					"mot liaison sq" "8,.25t truck:2,.25t trailer" 0 0 "" 3
+				"mot sig comm plat"
+					"mot hq plat" 4
+					"mot sig wire" "25,.25t truck,.75t carr (wpns):3,2.5t truck (cargo),atrl"
+		"mot m art bat"
+			"mot m art battery" 0 0 0 "" 3
+		"hq bri" 8
+		"mot hq bri"
+			"mot maint sq" "17,.75t carr (wpns),2.5t truck (kitchen),2.5t truck (cargo),.25t trailer,1t trailer (cargo):2,mg:2,atrl"
+			"mot operations plat" "17,.25t truck,.75t carr (cmd):4,2.5t truck (cargo),1t trailer (cargo),atrl:2,aircraft (liaisen):2" 1
+				"mot instrument-&-survey sq" "11,.75t carr (wpns),.25t trailer,mg"
+				"mot meteorological sq" "4,2.5t truck (cargo),1t trailer (cargo)"
+			"mot sig comm plat"
+				"mot hq plat" "5,.25 truck"
+				"mot sig radio sq" "8,.75t carr (wpns):2,atrl"
+				"mot sig wire sq" "27,0.75 carr (wpns):2,2.5t truck (carg),mg:2,atrl"

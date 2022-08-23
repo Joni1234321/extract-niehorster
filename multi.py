@@ -2,10 +2,8 @@ import sys
 import pathlib
 import json
 import shlex
-from typing import List, Dict
 
-import pyperclip
-
+from abbreviations import elongate_string, elongate_word
 from util.mongo_util import mongo_update_organization
 from util.org_util import from_replicate
 
@@ -111,6 +109,16 @@ obj = create_objects_from_path(org_path)
 
 with open(pathlib.Path(__file__).parent / json_path, "r") as json_file:
     json_obj = json.loads(json_file.read())
+    # dfs replace types and sizes
+    queue = [json_obj]
+    while len(queue) is not 0:
+        item = queue.pop()
+
+        item["type"] = elongate_string(item["type"])
+        item["size"] = elongate_word(item["size"])
+
+        queue += item["children"]
+
     org = merge_obj_with_generated_org(obj, json_obj)
 
 #

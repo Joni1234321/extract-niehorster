@@ -1,7 +1,7 @@
 Infantry Division,39_rifle-div:
 	"inf reg" Ø "" "" "" 3
 	"l art reg" Ø
-	"h art reg" Ø
+	"how art reg" Ø
 	"armour bat" Ø
 	"mot at bat" Ø
 	"armoured recon bat" Ø

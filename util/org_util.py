@@ -1,3 +1,4 @@
+import json
 from typing import List, Dict
 from abbreviations import elongate_word
 
@@ -83,7 +84,6 @@ def from_replicate(replicate_strings: List[str]):
             return None
         return replicate_strings[idx_next - 1]
 
-
     name = next_str()
 
     last = equipment_string_to_dictionary(next_str())
@@ -99,7 +99,6 @@ def from_replicate(replicate_strings: List[str]):
     notes = next_str()
 
     unit_n = next_str()
-
     return create_obj(name, last, sub, hq if len(hq) is not 0 else None, notes, unit_n)
 
 
@@ -129,22 +128,18 @@ def create_obj(name: str, last_child_equipment: Dict = None, sub_units: List[int
             except:
                 continue
 
-
-            hq_unit = {"n": 1, "type": elongate_word("hq"), "size": last_child["size"], "men": 0, "equipment": []}
             sub_unit = {"n": sub_units[i], "type": type, "size": sizes[from_size - i - 1]}
 
             # Set HQ
-            if hq_equipment is not None:
-                hq_unit.update(hq_equipment[i])
-
             # Set children
+            if hq_equipment is not None:
+                hq_unit = {"n": 1, "type": elongate_word("hq"), "size": last_child["size"], "men": hq_equipment[i]["men"], "equipment": hq_equipment[i]["equipment"]}
                 last_child["children"] = [hq_unit, sub_unit]
 
             last_child = sub_unit
 
     # Update List Child Equipment
     last_child.update(last_child_equipment)
-
     if notes is not None:
         obj["notes"] = notes
 

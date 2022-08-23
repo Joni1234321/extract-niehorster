@@ -1,5 +1,5 @@
 import pathlib
-from typing import Dict
+from typing import Dict, List
 
 _abbrs: Dict[str, str] = {}
 
@@ -31,3 +31,6 @@ def elongate_word(word: str):
     if w in _abbrs.keys():
         return _abbrs[w]
     return w
+
+def elongate_string(string: str):
+    return " ".join([elongate_word(w) for w in string.split(" ")])
