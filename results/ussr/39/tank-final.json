@@ -1,0 +1,385 @@
+{
+    "_id": {
+        "$oid": "6300c05cb647d9bc35c478ed"
+    },
+    "schema_version": 1,
+    "country": "ussr",
+    "year": "1939",
+    "name": "Tank Brigade",
+    "link": "39_tank-brig.htm",
+    "type": "armor",
+    "size": "brigade",
+    "children": [
+        {
+            "name": "arm hq bri",
+            "type": "armor headquarters",
+            "size": "brigade",
+            "men": "\u00c3\u02dc",
+            "equipment": [],
+            "replicate": [
+                "arm hq bri",
+                "\u00c3\u02dc"
+            ]
+        },
+        {
+            "n": 4,
+            "name": "arm bat",
+            "type": "armor",
+            "size": "battalion",
+            "children": [
+                {
+                    "name": "arm car rec plat",
+                    "type": "armor car reconnaissance",
+                    "size": "platoon",
+                    "men": "10",
+                    "equipment": [
+                        {
+                            "n": 1,
+                            "name": "armored car"
+                        },
+                        {
+                            "n": 1,
+                            "name": "t-37"
+                        }
+                    ],
+                    "replicate": [
+                        "arm car rec plat",
+                        "10,armored car:1,t-37:1"
+                    ]
+                },
+                {
+                    "name": "mot sig plat",
+                    "type": "motorized signal",
+                    "size": "platoon",
+                    "men": "24",
+                    "equipment": [],
+                    "replicate": [
+                        "mot sig plat",
+                        "24"
+                    ]
+                },
+                {
+                    "name": "mot service unknown",
+                    "type": "motorized service",
+                    "size": "unknown",
+                    "men": "60",
+                    "equipment": [],
+                    "replicate": [
+                        "mot service unknown",
+                        "60"
+                    ]
+                }
+            ],
+            "notes": "Tank either BT or T-26",
+            "replicate": [
+                "arm bat",
+                "53,armor:37",
+                "3",
+                "14,armor:3",
+                "Tank either BT or T-26",
+                "4"
+            ]
+        },
+        {
+            "name": "mot inf bat",
+            "type": "motorized infantry",
+            "size": "battalion",
+            "children": [
+                {
+                    "name": "mot at plat",
+                    "type": "motorized anti-tank",
+                    "size": "platoon",
+                    "men": "31",
+                    "equipment": [
+                        {
+                            "n": 3,
+                            "name": "45mm atg"
+                        }
+                    ],
+                    "replicate": [
+                        "mot at plat",
+                        "31,45mm atg:3"
+                    ]
+                },
+                {
+                    "name": "mot sig plat",
+                    "type": "motorized signal",
+                    "size": "platoon",
+                    "men": "32",
+                    "equipment": [],
+                    "replicate": [
+                        "mot sig plat",
+                        "32"
+                    ]
+                },
+                {
+                    "name": "mot service unknown",
+                    "type": "motorized service",
+                    "size": "unknown",
+                    "men": "78",
+                    "equipment": [],
+                    "replicate": [
+                        "mot service unknown",
+                        "78"
+                    ]
+                },
+                {
+                    "name": "mot aa mg plat",
+                    "type": "motorized anti-air mg",
+                    "size": "platoon",
+                    "men": "19",
+                    "equipment": [
+                        {
+                            "n": 3,
+                            "name": "anti-air-machine gun"
+                        }
+                    ],
+                    "replicate": [
+                        "mot aa mg plat",
+                        "19,anti-air-machine gun:3"
+                    ]
+                }
+            ],
+            "replicate": [
+                "mot inf bat",
+                "160,light machine gun:9,heavy machine gun:2",
+                "3",
+                "19"
+            ]
+        },
+        {
+            "name": "mot rec bat",
+            "type": "motorized reconnaissance",
+            "size": "battalion",
+            "men": "\u00c3\u02dc",
+            "equipment": [],
+            "replicate": [
+                "mot rec bat",
+                "\u00c3\u02dc",
+                "0",
+                "13"
+            ],
+            "children": [
+                {
+                    "name": "mot inf plat",
+                    "type": "motorized infantry",
+                    "size": "platoon",
+                    "men": "44",
+                    "equipment": [
+                        {
+                            "n": 2,
+                            "name": "light machine gun"
+                        },
+                        {
+                            "n": 2,
+                            "name": "heavy machine gun"
+                        }
+                    ],
+                    "replicate": [
+                        "mot inf plat",
+                        "44,light machine gun:2,heavy machine gun:2"
+                    ]
+                },
+                {
+                    "name": "arm car plat",
+                    "type": "armor car",
+                    "size": "platoon",
+                    "men": "55",
+                    "equipment": [
+                        {
+                            "n": 16,
+                            "name": "armored car"
+                        }
+                    ],
+                    "replicate": [
+                        "arm car plat",
+                        "55,armored car:16"
+                    ]
+                },
+                {
+                    "name": "arm plat",
+                    "type": "armor",
+                    "size": "platoon",
+                    "men": "53",
+                    "equipment": [
+                        {
+                            "n": 16,
+                            "name": "t-37"
+                        }
+                    ],
+                    "replicate": [
+                        "arm plat",
+                        "53,t-37:16"
+                    ]
+                },
+                {
+                    "name": "mot sig plat",
+                    "type": "motorized signal",
+                    "size": "platoon",
+                    "men": "18",
+                    "equipment": [],
+                    "replicate": [
+                        "mot sig plat",
+                        "18"
+                    ]
+                },
+                {
+                    "name": "mot service unknown",
+                    "type": "motorized service",
+                    "size": "unknown",
+                    "men": "43",
+                    "equipment": [],
+                    "replicate": [
+                        "mot service unknown",
+                        "43"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mot eng bat",
+            "type": "motorized engineer",
+            "size": "battalion",
+            "men": "280",
+            "equipment": [],
+            "replicate": [
+                "mot eng bat",
+                "280"
+            ]
+        },
+        {
+            "name": "mot inf plat",
+            "type": "motorized infantry",
+            "size": "platoon",
+            "men": "33",
+            "equipment": [
+                {
+                    "n": 2,
+                    "name": "light machine gun"
+                }
+            ],
+            "notes": "hqs Defense",
+            "replicate": [
+                "mot inf plat",
+                "33,light machine gun:2",
+                "0",
+                "\u00d8",
+                "hqs Defense"
+            ]
+        },
+        {
+            "name": "mot aamg comp",
+            "type": "motorized anti-air-machine gun",
+            "size": "company",
+            "men": "30",
+            "equipment": [
+                {
+                    "n": 5,
+                    "name": "anti-air-machine gun"
+                }
+            ],
+            "replicate": [
+                "mot aamg comp",
+                "30,anti-air-machine gun:5"
+            ]
+        },
+        {
+            "name": "mot chemical",
+            "type": "motorized",
+            "size": "chemical",
+            "men": "90",
+            "equipment": [],
+            "replicate": [
+                "mot chemical",
+                "90"
+            ]
+        },
+        {
+            "name": "mot sig comp",
+            "type": "motorized signal",
+            "size": "company",
+            "men": "130",
+            "equipment": [],
+            "replicate": [
+                "mot sig comp",
+                "130"
+            ]
+        },
+        {
+            "name": "mot main bat",
+            "type": "motorized maintenance",
+            "size": "battalion",
+            "men": "200",
+            "equipment": [],
+            "replicate": [
+                "mot main bat",
+                "200"
+            ]
+        },
+        {
+            "name": "mot arm main recovery bat",
+            "type": "motorized armor maintenance recovery",
+            "size": "battalion",
+            "men": "\u00c3\u02dc",
+            "equipment": [],
+            "replicate": [
+                "mot arm main recovery bat",
+                "\u00c3\u02dc",
+                "\u00c3\u02dc"
+            ]
+        },
+        {
+            "name": "mot tra bat",
+            "type": "motorized transport",
+            "size": "battalion",
+            "men": "200",
+            "equipment": [],
+            "replicate": [
+                "mot tra bat",
+                "200"
+            ]
+        },
+        {
+            "name": "arm comp",
+            "type": "armor",
+            "size": "company",
+            "men": "100",
+            "equipment": [
+                {
+                    "n": 8,
+                    "name": "armor"
+                }
+            ],
+            "notes": "Reserve",
+            "replicate": [
+                "arm comp",
+                "100,armor:8",
+                "0",
+                "\u00d8",
+                "Reserve"
+            ]
+        },
+        {
+            "name": "mot hosp comp",
+            "type": "motorized hospital",
+            "size": "company",
+            "men": "60",
+            "equipment": [],
+            "replicate": [
+                "mot hosp comp",
+                "60"
+            ]
+        },
+        {
+            "name": "mot supp bat",
+            "type": "motorized supply",
+            "size": "battalion",
+            "men": "200",
+            "equipment": [],
+            "replicate": [
+                "mot supp bat",
+                "200"
+            ]
+        }
+    ]
+}

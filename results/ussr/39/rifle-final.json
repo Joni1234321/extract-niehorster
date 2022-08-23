@@ -1,0 +1,152 @@
+{
+    "_id": {
+        "$oid": "62fedbf273c7a53fdef5cea8"
+    },
+    "schema_version": 1,
+    "name": "Rifle Division",
+    "link": "39_rifle-div",
+    "type": "infantry",
+    "size": "division",
+    "country": "ussr",
+    "year": "1939",
+    "children": [
+        {
+            "n": 3,
+            "name": "inf reg",
+            "type": "infantry",
+            "size": "regiment",
+            "men": "\u00c3\u02dc",
+            "equipment": [],
+            "notes": "",
+            "replicate": [
+                "inf reg",
+                "\u00c3\u02dc",
+                "",
+                "\u00d8",
+                "",
+                "3"
+            ]
+        },
+        {
+            "name": "l art reg",
+            "type": "light artillery",
+            "size": "regiment",
+            "men": "\u00c3\u02dc",
+            "equipment": [],
+            "replicate": [
+                "l art reg",
+                "\u00c3\u02dc"
+            ]
+        },
+        {
+            "name": "h art reg",
+            "type": "heavy artillery",
+            "size": "regiment",
+            "men": "\u00c3\u02dc",
+            "equipment": [],
+            "replicate": [
+                "h art reg",
+                "\u00c3\u02dc"
+            ]
+        },
+        {
+            "name": "armour bat",
+            "type": "armor",
+            "size": "battalion",
+            "men": "\u00c3\u02dc",
+            "equipment": [],
+            "replicate": [
+                "armour bat",
+                "\u00c3\u02dc"
+            ]
+        },
+        {
+            "name": "mot at bat",
+            "type": "motorized anti-tank",
+            "size": "battalion",
+            "men": "\u00c3\u02dc",
+            "equipment": [],
+            "replicate": [
+                "mot at bat",
+                "\u00c3\u02dc"
+            ]
+        },
+        {
+            "name": "armoured recon bat",
+            "type": "armored reconnaissance",
+            "size": "battalion",
+            "men": "\u00c3\u02dc",
+            "equipment": [],
+            "replicate": [
+                "armoured recon bat",
+                "\u00c3\u02dc"
+            ]
+        },
+        {
+            "name": "semi-mot engineer bat",
+            "type": "semi-motorized engineer",
+            "size": "battalion",
+            "men": "\u00c3\u02dc",
+            "equipment": [],
+            "replicate": [
+                "semi-mot engineer bat",
+                "\u00c3\u02dc"
+            ]
+        },
+        {
+            "name": "mot sig bat",
+            "type": "motorized signal",
+            "size": "battalion",
+            "men": "\u00c3\u02dc",
+            "equipment": [],
+            "replicate": [
+                "mot sig bat",
+                "\u00c3\u02dc"
+            ]
+        },
+        {
+            "name": "semi-mot field hosp bat",
+            "type": "semi-motorized field hospital",
+            "size": "battalion",
+            "men": "\u00c3\u02dc",
+            "equipment": [],
+            "replicate": [
+                "semi-mot field hosp bat",
+                "\u00c3\u02dc"
+            ]
+        },
+        {
+            "name": "semi-mot supply bat",
+            "type": "semi-motorized supply",
+            "size": "battalion",
+            "men": "\u00c3\u02dc",
+            "equipment": [],
+            "replicate": [
+                "semi-mot supply bat",
+                "\u00c3\u02dc"
+            ]
+        },
+        {
+            "name": "mot bakery plat",
+            "type": "motorized bakery",
+            "size": "platoon",
+            "men": "\u00c3\u02dc",
+            "equipment": [],
+            "replicate": [
+                "mot bakery plat",
+                "\u00c3\u02dc"
+            ]
+        },
+        {
+            "name": "Field post unknown",
+            "type": "field post",
+            "size": "unknown",
+            "men": "\u00c3\u02dc",
+            "equipment": [],
+            "replicate": [
+                "Field post unknown",
+                "\u00c3\u02dc"
+            ]
+        }
+    ]
+}
