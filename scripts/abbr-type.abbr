@@ -8,10 +8,11 @@ quartermaster, qm
 anti-tank, at, antitank
 anti-air, aa, antiair
 anti-tank-rifle, atr, antitankrifle
+anti-tank-rocket-launcher, atrl
 anti-air-machine gun, aamg
 
 reconnaissance, Recon, Rec
-hospital, hos
+hospital, hos, hosp
 transport, tra, tran, trans, transp
 supply, sup, supp
 signal, sig

@@ -1,0 +1,13 @@
+{
+  "_id": {
+    "$oid": "6304f68a168ad4667e5fabee"
+  },
+    "schema_version": 1,
+    "country": "usa",
+    "year": "42069",
+    "name": "Test Division",
+    "link": "div-inf.html",
+    "type": "infantry",
+    "size": "division",
+    "children": []
+}

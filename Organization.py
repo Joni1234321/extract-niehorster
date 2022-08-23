@@ -12,6 +12,7 @@ class Organization:
 
         # Split size and type of name
         words = [elongate_word(w) for w in name.split()]
+
         self.size, self.type = words[-1], " ".join(words[:-1])
 
     # Add child

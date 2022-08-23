@@ -6,6 +6,7 @@ from typing import List, Dict
 
 import pyperclip
 
+from util.mongo_util import mongo_update_organization
 from util.org_util import from_replicate
 
 
@@ -112,6 +113,12 @@ with open(pathlib.Path(__file__).parent / json_path, "r") as json_file:
     json_obj = json.loads(json_file.read())
     org = merge_obj_with_generated_org(obj, json_obj)
 
-pyperclip.copy(json.dumps(org))
+#
 with open(pathlib.Path(__file__).parent / (json_path.split(".")[0] + "-final.json"), "w") as final_out:
     final_out.write(json.dumps(org, indent=4))
+
+obj_id = org["_id"]["$oid"]
+del org["_id"]
+print("Updating db entry...")
+mongo_update_organization(obj_id, org)
+print("Updated entry!")

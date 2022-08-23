@@ -1,0 +1,171 @@
+{
+    "_id": {
+        "$oid": "63035c2fbb33d1c8cf10d3a5"
+    },
+    "schema_version": 1,
+    "country": "usa",
+    "year": "1944",
+    "name": "Rifle Division",
+    "link": "div-inf.html",
+    "type": "infantry",
+    "size": "division",
+    "children": [
+        {
+            "n": 1,
+            "name": "Infantry Division Headquarters",
+            "link": "div-inf_hqs.html",
+            "type": "infantry headquarters",
+            "size": "division",
+            "children": []
+        },
+        {
+            "n": 3,
+            "name": "Infantry Regiment",
+            "link": "div-inf_inf-.html",
+            "type": "infantry",
+            "size": "regiment",
+            "children": [
+                {
+                    "n": 3,
+                    "name": "Infantry Battalion",
+                    "link": "div-inf_inf-bn.html",
+                    "type": "infantry",
+                    "size": "battalion",
+                    "children": [
+                        {
+                            "n": 3,
+                            "name": "Infantry Rifle Company",
+                            "link": "div-inf_inf-rifle.html",
+                            "type": "infantry infantry",
+                            "size": "company",
+                            "children": []
+                        },
+                        {
+                            "n": 1,
+                            "name": "Infantry Heavy Weapons Company",
+                            "link": "div-inf_inf-heavy.html",
+                            "type": "infantry heavy weapons",
+                            "size": "company",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "n": 1,
+                    "name": "Infantry Cannon Company",
+                    "link": "div-inf_inf-howitzer.html",
+                    "type": "infantry cannon",
+                    "size": "company",
+                    "children": []
+                },
+                {
+                    "n": 1,
+                    "name": "Infantry Antitank Company",
+                    "link": "div-inf_inf-at.html",
+                    "type": "infantry anti-tank",
+                    "size": "company",
+                    "children": []
+                },
+                {
+                    "n": 1,
+                    "name": "Service Company, Infantry Regiment",
+                    "link": "div-inf_inf-svc.html",
+                    "type": "service",
+                    "size": "company",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "n": 1,
+            "name": "Mechanized Cavalry Reconnaissance Troop",
+            "link": "div-inf_recon.html",
+            "type": "mechanized cavalry reconnaissance troop",
+            "size": "company",
+            "children": []
+        },
+        {
+            "n": 1,
+            "name": "Engineer Combat Battalion",
+            "link": "div-inf_engr-.html",
+            "type": "engineer combat",
+            "size": "battalion",
+            "children": [
+                {
+                    "n": 3,
+                    "name": "Engineer Company",
+                    "link": "div-inf_engr-co.html",
+                    "type": "engineer",
+                    "size": "company",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "n": 1,
+            "name": "Special Troops",
+            "link": "div-inf_special.html",
+            "type": "special-troops",
+            "size": "battalion",
+            "children": [
+                {
+                    "n": 1,
+                    "name": "Signal Company, Infantry Division",
+                    "link": "div-inf_special-signal.html",
+                    "type": "signal company, infantry",
+                    "size": "division",
+                    "children": []
+                },
+                {
+                    "n": 1,
+                    "name": "Quartermaster Company, Infantry Division",
+                    "link": "div-inf_special-qm.html",
+                    "type": "quartermaster company, infantry",
+                    "size": "division",
+                    "children": []
+                },
+                {
+                    "n": 1,
+                    "name": "Light Maintenance Company, Infantry Division",
+                    "link": "div-inf_special-ord.html",
+                    "type": "light maintenance company, infantry",
+                    "size": "division",
+                    "children": []
+                },
+                {
+                    "n": 1,
+                    "name": "Headquarters Company, Infantry Division",
+                    "link": "div-inf_hhc.html",
+                    "type": "headquarters company, infantry",
+                    "size": "division",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "n": 1,
+            "name": "Medical Battalion",
+            "link": "div-inf_medic-.html",
+            "type": "medical",
+            "size": "battalion",
+            "children": [
+                {
+                    "n": 3,
+                    "name": "Collecting Company, Medical Battalion",
+                    "link": "div-inf_medic-collect.html",
+                    "type": "collecting company, medical",
+                    "size": "battalion",
+                    "children": []
+                },
+                {
+                    "n": 1,
+                    "name": "Clearing Company",
+                    "link": "div-inf_medic-clear.html",
+                    "type": "clearing",
+                    "size": "company",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
