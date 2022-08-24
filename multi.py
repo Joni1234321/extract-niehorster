@@ -2,6 +2,7 @@ import sys
 import pathlib
 import json
 import shlex
+from datetime import datetime
 
 from abbreviations import elongate_string, elongate_word
 from util.mongo_util import mongo_update_organization
@@ -127,6 +128,7 @@ with open(pathlib.Path(__file__).parent / (json_path.split(".")[0] + "-final.jso
 
 obj_id = org["_id"]["$oid"]
 del org["_id"]
+org["last_modified"] = datetime.now().utcnow()
 print("Updating db entry...")
 mongo_update_organization(obj_id, org)
 print("Updated entry!")

@@ -1767,7 +1767,7 @@
             "n": 1,
             "name": "Antiaircraft Machine Gun Company",
             "link": "44_rd_aamg.html",
-            "type": "antiaircraft machine gun",
+            "type": "anti-air machine gun",
             "size": "company",
             "children": [
                 {
