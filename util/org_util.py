@@ -37,6 +37,11 @@ def equipment_string_to_dictionary(equipment_string: str):
     item_strings = equipment_string.split(ITEM_SEPERATOR)
     men = item_strings[0]
     equipment = [_generate_equipment(eq_str) for eq_str in item_strings[1:]]
+    try:
+        men = int(men)
+    except ValueError:
+        men = "Ø"
+
     dic = {"men": men, "equipment": equipment}
     return dic
 
@@ -125,15 +130,22 @@ def create_obj(name: str, last_child_equipment: Dict = None, sub_units: List[int
             try:
                 if int(sub_units[i]) == 0:
                     continue
-            except:
+            except ValueError:
                 continue
 
-            sub_unit = {"n": sub_units[i], "type": type, "size": sizes[from_size - i - 1]}
+            sub_unit = {"n": int(sub_units[i]), "type": type, "size": sizes[from_size - i - 1]}
 
             # Set HQ
             # Set children
             if hq_equipment is not None:
-                hq_unit = {"n": 1, "type": elongate_word("hq"), "size": last_child["size"], "men": hq_equipment[i]["men"], "equipment": hq_equipment[i]["equipment"]}
+                men = hq_equipment[i]["men"]
+                try:
+                    men = int(men)
+                except ValueError:
+                    men = "Ø"
+
+                hq_unit = {"n": 1, "type": elongate_word("hq"), "size": last_child["size"], "men": men,
+                           "equipment": hq_equipment[i]["equipment"]}
                 last_child["children"] = [hq_unit, sub_unit]
 
             last_child = sub_unit
