@@ -1,7 +1,7 @@
 from typing import Dict
 from abbreviations import elongate_word
 
-
+# Organizaiton class is only used in combination with download form the interwebs
 class Organization:
     def __init__(self, name: str, link: str):
         # Link -> n

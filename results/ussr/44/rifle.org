@@ -1,4 +1,7 @@
 Infantry Division,44_rd:
+	"hq"
+	"hq"
+	"hq"
 	"Recon Company" 74,smg:88,lmg:6
 	"semi-mot chemical comp" Ø
 	"mot tra comp" Ø
@@ -28,7 +31,7 @@ HQ Rifle Regiment,44_rd_inf-rgt_hqs:
 	"Chemical Squad" 12,cart,horse,wagon:3,horse:6
 
 Infantry Battalion,44_rd_inf-bn:
-	"HQ bat" 7
+	"HQ" 7
 		"Signal platoon" 10,cart,horse
 		"Hosp plat" 5,cart,horse
 		"ssd plat" 12,horse:3,cart:3,horse:3,wagon:4,horse:8
@@ -38,16 +41,16 @@ Infantry Battalion,44_rd_inf-bn:
 	"ATR Platoon" 7,atr:3 3 2,wagon,horse:2
 
 Infantry Company,44_rd_inf-co:
-	"HQ Company" 5
+	"HQ" 5
 	"MG Squad" 4,cart,horse,hmg
 	"Hospital Squad" 5
 	"Inf Platoon" 9,smg,lmg 4 4 "" 2
 	"SMG Platoon" 9,smg:9 4 4,smg:4
 
 Arty Reg,44_rd_art-rgt:
-	"HQ Artillery Regiment" 25,horse:6
+	"HQ" 25,horse:6
 	"Art bat" "" "" "" "" 3
-		"hq bat" 7,horse:2
+		"hq" 7,horse:2
 			"sig plat" 24,horse:2,cart:2,horse:2
 			"cav scout sq" 4,horse:4,smg
 			"art obs plat" 12,horse,cart:2,horse:2
@@ -68,8 +71,8 @@ AT Bat,44_rd_at-bn.html:
 	"Mot Ammo Squad" 7,truck:3
 
 SP Gun Bat,44_rd_su-bn.html:
-	"hq bat" 7
-		"mot hq bat" 4,truck
+	"hq" 7
+		"mot hq" 4,truck
 		"signal sq" 5
 		"cav sq" 10
 		"sp sq" 4,su-76m
@@ -81,19 +84,19 @@ SP Gun Bat,44_rd_su-bn.html:
 	"hosp plat" 7
 
 Eng Bat,44_rd_engr-bn:
-	"hq bat" Ø
-		"hq staff undefined" Ø
+	"hq" Ø
+		"hq staff" Ø
 		"semi-mot service and trans sq" Ø
 	"eng comp" Ø 0_3 0_Ø
 
 AA MG Comp,44_rd_aamg:
-	"hq comp" 7
+	"hq" 7
 	"mot aa mg plat" 14,truck:3,aamg:3
 	"sup sq" 6
 
 Sig Bat,44_rd_signal-bn:
-	"Hq bat" 7
-		"command hq undefined" 2
+	"Hq" 7
+		"command hq" 2
 		"hq staff plat" 18,wagon:2
 		"signal radio plat" "26,truck,special truck"
 		"signal courier plat" 16,horse:5
@@ -102,7 +105,7 @@ Sig Bat,44_rd_signal-bn:
 	"supply squad" 8.car,truck
 
 Hosp comp,44_rd_medic-bn:
-	"hq bat" Ø
+	"hq" Ø
 	"Medical Comp" Ø
 	"Field Hospital Plat" Ø
 	"mot Ambulance Plat" Ø

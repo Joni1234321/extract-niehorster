@@ -36,7 +36,7 @@ def equipment_string_to_dictionary(equipment_string: str):
 
     item_strings = equipment_string.split(ITEM_SEPERATOR)
     men = item_strings[0]
-    equipment = [_generate_equipment(eq_str) for eq_str in item_strings[1:]]
+    equipment = [_generate_equipment(eq_str) for eq_str in item_strings[1:] if eq_str != ""]
     try:
         men = int(men)
     except ValueError:
@@ -143,8 +143,7 @@ def create_obj(name: str, last_child_equipment: Dict = None, sub_units: List[int
                     men = int(men)
                 except ValueError:
                     men = "Ø"
-
-                hq_unit = {"n": 1, "type": elongate_word("hq"), "size": last_child["size"], "men": men,
+                hq_unit = {"n": 1, "type": " ".join([elongate_word("hq"), last_child["type"]]), "size": last_child["size"], "men": men,
                            "equipment": hq_equipment[i]["equipment"]}
                 last_child["children"] = [hq_unit, sub_unit]
 

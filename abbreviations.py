@@ -27,10 +27,11 @@ _add_abbreviations("scripts/abbr-size.abbr")
 
 # Give word you want, and returns word you need
 def elongate_word(word: str):
+    word = word.replace(",", "")
     w = word.lower()
     if w in _abbrs.keys():
         return _abbrs[w]
     return w
 
 def elongate_string(string: str):
-    return " ".join([elongate_word(w) for w in string.split(" ")])
+    return " ".join([elongate_word(w) for w in string.split()])

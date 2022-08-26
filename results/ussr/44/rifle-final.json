@@ -32,13 +32,13 @@
                             "size": "company",
                             "children": [
                                 {
-                                    "name": "HQ Company",
-                                    "type": "headquarters",
+                                    "name": "headquarters  infantry company",
+                                    "type": "headquarters infantry",
                                     "size": "company",
-                                    "men": "5",
+                                    "men": 5,
                                     "equipment": [],
                                     "replicate": [
-                                        "HQ Company",
+                                        "HQ",
                                         "5"
                                     ]
                                 },
@@ -46,7 +46,7 @@
                                     "name": "MG Squad",
                                     "type": "machine gun",
                                     "size": "squad",
-                                    "men": "4",
+                                    "men": 4,
                                     "equipment": [
                                         {
                                             "n": 1,
@@ -70,7 +70,7 @@
                                     "name": "Hospital Squad",
                                     "type": "hospital",
                                     "size": "squad",
-                                    "men": "5",
+                                    "men": 5,
                                     "equipment": [],
                                     "replicate": [
                                         "Hospital Squad",
@@ -85,16 +85,17 @@
                                     "children": [
                                         {
                                             "n": 1,
-                                            "type": "headquarters",
+                                            "type": "headquarters infantry",
                                             "size": "platoon",
-                                            "men": "4",
-                                            "equipment": []
+                                            "men": 4,
+                                            "equipment": [],
+                                            "name": "headquarters  infantry platoon"
                                         },
                                         {
-                                            "n": "4",
+                                            "n": 4,
                                             "type": "infantry",
                                             "size": "squad",
-                                            "men": "9",
+                                            "men": 9,
                                             "equipment": [
                                                 {
                                                     "n": 1,
@@ -124,21 +125,22 @@
                                     "children": [
                                         {
                                             "n": 1,
-                                            "type": "headquarters",
+                                            "type": "headquarters sub-machine gun",
                                             "size": "platoon",
-                                            "men": "4",
+                                            "men": 4,
                                             "equipment": [
                                                 {
                                                     "n": 4,
                                                     "name": "sub-machine gun"
                                                 }
-                                            ]
+                                            ],
+                                            "name": "headquarters  sub-machine gun platoon"
                                         },
                                         {
-                                            "n": "4",
+                                            "n": 4,
                                             "type": "sub-machine gun",
                                             "size": "squad",
-                                            "men": "9",
+                                            "men": 9,
                                             "equipment": [
                                                 {
                                                     "n": 9,
@@ -157,13 +159,13 @@
                             ]
                         },
                         {
-                            "name": "HQ bat",
-                            "type": "headquarters",
+                            "name": "headquarters  infantry battalion",
+                            "type": "headquarters infantry",
                             "size": "battalion",
-                            "men": "7",
+                            "men": 7,
                             "equipment": [],
                             "replicate": [
-                                "HQ bat",
+                                "HQ",
                                 "7"
                             ],
                             "children": [
@@ -171,7 +173,7 @@
                                     "name": "Signal platoon",
                                     "type": "signal",
                                     "size": "platoon",
-                                    "men": "10",
+                                    "men": 10,
                                     "equipment": [
                                         {
                                             "n": 1,
@@ -191,7 +193,7 @@
                                     "name": "Hosp plat",
                                     "type": "hospital",
                                     "size": "platoon",
-                                    "men": "5",
+                                    "men": 5,
                                     "equipment": [
                                         {
                                             "n": 1,
@@ -211,7 +213,7 @@
                                     "name": "ssd plat",
                                     "type": "service supply depot",
                                     "size": "platoon",
-                                    "men": "12",
+                                    "men": 12,
                                     "equipment": [
                                         {
                                             "n": 3,
@@ -248,21 +250,22 @@
                             "children": [
                                 {
                                     "n": 1,
-                                    "type": "headquarters",
+                                    "type": "headquarters machine gun",
                                     "size": "company",
-                                    "men": "2",
-                                    "equipment": []
+                                    "men": 2,
+                                    "equipment": [],
+                                    "name": "headquarters  machine gun company"
                                 },
                                 {
-                                    "n": "3",
+                                    "n": 3,
                                     "type": "machine gun",
                                     "size": "platoon",
                                     "children": [
                                         {
                                             "n": 1,
-                                            "type": "headquarters",
+                                            "type": "headquarters machine gun",
                                             "size": "platoon",
-                                            "men": "3",
+                                            "men": 3,
                                             "equipment": [
                                                 {
                                                     "n": 1,
@@ -280,13 +283,14 @@
                                                     "n": 2,
                                                     "name": "horse"
                                                 }
-                                            ]
+                                            ],
+                                            "name": "headquarters  machine gun platoon"
                                         },
                                         {
-                                            "n": "3",
+                                            "n": 3,
                                             "type": "machine gun",
                                             "size": "squad",
-                                            "men": "5",
+                                            "men": 5,
                                             "equipment": [
                                                 {
                                                     "n": 1,
@@ -311,28 +315,30 @@
                             "children": [
                                 {
                                     "n": 1,
-                                    "type": "headquarters",
+                                    "type": "headquarters infantry mortar",
                                     "size": "company",
-                                    "men": "2",
-                                    "equipment": []
+                                    "men": 2,
+                                    "equipment": [],
+                                    "name": "headquarters  infantry mortar company"
                                 },
                                 {
-                                    "n": "3",
+                                    "n": 3,
                                     "type": "infantry mortar",
                                     "size": "platoon",
                                     "children": [
                                         {
                                             "n": 1,
-                                            "type": "headquarters",
+                                            "type": "headquarters infantry mortar",
                                             "size": "platoon",
-                                            "men": "4",
-                                            "equipment": []
+                                            "men": 4,
+                                            "equipment": [],
+                                            "name": "headquarters  infantry mortar platoon"
                                         },
                                         {
-                                            "n": "3",
+                                            "n": 3,
                                             "type": "infantry mortar",
                                             "size": "squad",
-                                            "men": "5",
+                                            "men": 5,
                                             "equipment": [
                                                 {
                                                     "n": 1,
@@ -365,16 +371,17 @@
                             "children": [
                                 {
                                     "n": 1,
-                                    "type": "headquarters",
+                                    "type": "headquarters anti-tank",
                                     "size": "platoon",
-                                    "men": "5",
-                                    "equipment": []
+                                    "men": 5,
+                                    "equipment": [],
+                                    "name": "headquarters  anti-tank platoon"
                                 },
                                 {
-                                    "n": "2",
+                                    "n": 2,
                                     "type": "anti-tank",
                                     "size": "squad",
-                                    "men": "6",
+                                    "men": 6,
                                     "equipment": [
                                         {
                                             "n": 1,
@@ -413,9 +420,9 @@
                             "children": [
                                 {
                                     "n": 1,
-                                    "type": "headquarters",
+                                    "type": "headquarters anti-tank-rifle",
                                     "size": "platoon",
-                                    "men": "2",
+                                    "men": 2,
                                     "equipment": [
                                         {
                                             "n": 1,
@@ -425,13 +432,14 @@
                                             "n": 2,
                                             "name": "horse"
                                         }
-                                    ]
+                                    ],
+                                    "name": "headquarters  anti-tank-rifle platoon"
                                 },
                                 {
-                                    "n": "3",
+                                    "n": 3,
                                     "type": "anti-tank-rifle",
                                     "size": "squad",
-                                    "men": "7",
+                                    "men": 7,
                                     "equipment": [
                                         {
                                             "n": 3,
@@ -451,16 +459,16 @@
                 },
                 {
                     "n": 1,
-                    "name": "Headquarters, Rifle Regiment",
+                    "name": "headquarters  infantry regiment",
                     "link": "44_rd_inf-rgt_hqs.htm",
-                    "type": "headquarters, infantry",
+                    "type": "headquarters infantry",
                     "size": "regiment",
                     "children": [
                         {
-                            "name": "hq staff Regiment",
-                            "type": "headquarters staff",
+                            "name": "headquarters staff headquarters infantry regiment",
+                            "type": "headquarters staff headquarters infantry",
                             "size": "regiment",
-                            "men": "31",
+                            "men": 31,
                             "equipment": [],
                             "replicate": [
                                 "hq staff Regiment",
@@ -482,23 +490,18 @@
                                     "name": "Signal radio squad",
                                     "type": "signal radio",
                                     "size": "squad",
-                                    "men": "9",
-                                    "equipment": [
-                                        {
-                                            "n": 1,
-                                            "name": ""
-                                        }
-                                    ],
+                                    "men": 9,
+                                    "equipment": [],
                                     "replicate": [
                                         "Signal radio squad",
-                                        "9,:1"
+                                        "9"
                                     ]
                                 },
                                 {
                                     "name": "Signal wire squad",
                                     "type": "signal wire",
                                     "size": "squad",
-                                    "men": "21",
+                                    "men": 21,
                                     "equipment": [
                                         {
                                             "n": 4,
@@ -507,22 +510,18 @@
                                         {
                                             "n": 4,
                                             "name": "horse"
-                                        },
-                                        {
-                                            "n": 1,
-                                            "name": ""
                                         }
                                     ],
                                     "replicate": [
                                         "Signal wire squad",
-                                        "21,cart:4,horse:4,:1"
+                                        "21,cart:4,horse:4"
                                     ]
                                 },
                                 {
-                                    "name": "HQ Regiment",
-                                    "type": "headquarters",
-                                    "size": "regiment",
-                                    "men": "18",
+                                    "name": "headquarters  signal platoon",
+                                    "type": "headquarters signal",
+                                    "size": "platoon",
+                                    "men": 18,
                                     "equipment": [
                                         {
                                             "n": 3,
@@ -548,7 +547,7 @@
                             "name": "Cav Platoon",
                             "type": "cavalry",
                             "size": "platoon",
-                            "men": "25",
+                            "men": 25,
                             "equipment": [],
                             "replicate": [
                                 "Cav Platoon",
@@ -559,7 +558,7 @@
                             "name": "Infantry Pioneer Platoon",
                             "type": "infantry pioneer",
                             "size": "platoon",
-                            "men": "20",
+                            "men": 20,
                             "equipment": [
                                 {
                                     "n": 1,
@@ -579,7 +578,7 @@
                             "name": "Hospital Platoon",
                             "type": "hospital",
                             "size": "platoon",
-                            "men": "33",
+                            "men": 33,
                             "equipment": [
                                 {
                                     "n": 1,
@@ -611,7 +610,7 @@
                             "name": "Veterinary Squad",
                             "type": "veterinary",
                             "size": "squad",
-                            "men": "3",
+                            "men": 3,
                             "equipment": [
                                 {
                                     "n": 1,
@@ -627,7 +626,7 @@
                             "name": "Chemical Squad",
                             "type": "chemical",
                             "size": "squad",
-                            "men": "12",
+                            "men": 12,
                             "equipment": [
                                 {
                                     "n": 1,
@@ -660,38 +659,40 @@
                     "children": [
                         {
                             "n": 1,
-                            "type": "headquarters",
+                            "type": "headquarters sub-machine gun",
                             "size": "company",
-                            "men": "7",
+                            "men": 7,
                             "equipment": [
                                 {
                                     "n": 7,
                                     "name": "sub-machine gun"
                                 }
-                            ]
+                            ],
+                            "name": "headquarters  sub-machine gun company"
                         },
                         {
-                            "n": "3",
+                            "n": 3,
                             "type": "sub-machine gun",
                             "size": "platoon",
                             "children": [
                                 {
                                     "n": 1,
-                                    "type": "headquarters",
+                                    "type": "headquarters sub-machine gun",
                                     "size": "platoon",
-                                    "men": "4",
+                                    "men": 4,
                                     "equipment": [
                                         {
                                             "n": 4,
                                             "name": "sub-machine gun"
                                         }
-                                    ]
+                                    ],
+                                    "name": "headquarters  sub-machine gun platoon"
                                 },
                                 {
-                                    "n": "3",
+                                    "n": 3,
                                     "type": "sub-machine gun",
                                     "size": "squad",
-                                    "men": "9",
+                                    "men": 9,
                                     "equipment": [
                                         {
                                             "n": 9,
@@ -716,28 +717,30 @@
                     "children": [
                         {
                             "n": 1,
-                            "type": "headquarters",
+                            "type": "headquarters infantry gun",
                             "size": "company",
-                            "men": "\u00c3\u02dc",
-                            "equipment": []
+                            "men": "\u00d8",
+                            "equipment": [],
+                            "name": "headquarters  infantry gun company"
                         },
                         {
-                            "n": "2",
+                            "n": 2,
                             "type": "infantry gun",
                             "size": "platoon",
                             "children": [
                                 {
                                     "n": 1,
-                                    "type": "headquarters",
+                                    "type": "headquarters infantry gun",
                                     "size": "platoon",
-                                    "men": "\u00c3\u02dc",
-                                    "equipment": []
+                                    "men": "\u00d8",
+                                    "equipment": [],
+                                    "name": "headquarters  infantry gun platoon"
                                 },
                                 {
-                                    "n": "2",
+                                    "n": 2,
                                     "type": "infantry gun",
                                     "size": "squad",
-                                    "men": "19",
+                                    "men": 19,
                                     "equipment": [
                                         {
                                             "n": 1,
@@ -753,7 +756,7 @@
                         "inf gun Company",
                         "19,76mm cannon:1",
                         "2_2",
-                        "\u00c3\u02dc_\u00c3\u02dc",
+                        "\u00d8_\u00d8",
                         "Total of 74 men, 49 horses, 3 carts, 12 wagons, 4 cannons"
                     ]
                 },
@@ -764,21 +767,22 @@
                     "children": [
                         {
                             "n": 1,
-                            "type": "headquarters",
+                            "type": "headquarters motorized mortar",
                             "size": "company",
-                            "men": "10",
+                            "men": 10,
                             "equipment": [
                                 {
                                     "n": 1,
                                     "name": "truck"
                                 }
-                            ]
+                            ],
+                            "name": "headquarters  motorized mortar company"
                         },
                         {
-                            "n": "6",
+                            "n": 6,
                             "type": "motorized mortar",
                             "size": "squad",
-                            "men": "8",
+                            "men": 8,
                             "equipment": [
                                 {
                                     "n": 1,
@@ -805,28 +809,30 @@
                     "children": [
                         {
                             "n": 1,
-                            "type": "headquarters",
+                            "type": "headquarters anti-tank",
                             "size": "company",
-                            "men": "4",
-                            "equipment": []
+                            "men": 4,
+                            "equipment": [],
+                            "name": "headquarters  anti-tank company"
                         },
                         {
-                            "n": "3",
+                            "n": 3,
                             "type": "anti-tank",
                             "size": "platoon",
                             "children": [
                                 {
                                     "n": 1,
-                                    "type": "headquarters",
+                                    "type": "headquarters anti-tank",
                                     "size": "platoon",
-                                    "men": "5",
-                                    "equipment": []
+                                    "men": 5,
+                                    "equipment": [],
+                                    "name": "headquarters  anti-tank platoon"
                                 },
                                 {
-                                    "n": "2",
+                                    "n": 2,
                                     "type": "anti-tank",
                                     "size": "squad",
-                                    "men": "6",
+                                    "men": 6,
                                     "equipment": [
                                         {
                                             "n": 1,
@@ -864,7 +870,7 @@
                     "name": "Supply Company",
                     "type": "supply",
                     "size": "company",
-                    "men": "39",
+                    "men": 39,
                     "equipment": [
                         {
                             "n": 1,
@@ -896,7 +902,7 @@
                     "name": "Ammo / Maintenance Squad",
                     "type": "ammunition / maintenance",
                     "size": "squad",
-                    "men": "14",
+                    "men": 14,
                     "equipment": [],
                     "replicate": [
                         "Ammo / Maintenance Squad",
@@ -913,10 +919,10 @@
             "size": "regiment",
             "children": [
                 {
-                    "name": "HQ Artillery Regiment",
+                    "name": "headquarters  artillery regiment",
                     "type": "headquarters artillery",
                     "size": "regiment",
-                    "men": "25",
+                    "men": 25,
                     "equipment": [
                         {
                             "n": 6,
@@ -924,7 +930,7 @@
                         }
                     ],
                     "replicate": [
-                        "HQ Artillery Regiment",
+                        "HQ",
                         "25,horse:6"
                     ]
                 },
@@ -946,10 +952,10 @@
                     ],
                     "children": [
                         {
-                            "name": "hq bat",
-                            "type": "headquarters",
+                            "name": "headquarters  artillery battalion",
+                            "type": "headquarters artillery",
                             "size": "battalion",
-                            "men": "7",
+                            "men": 7,
                             "equipment": [
                                 {
                                     "n": 2,
@@ -957,7 +963,7 @@
                                 }
                             ],
                             "replicate": [
-                                "hq bat",
+                                "hq",
                                 "7,horse:2"
                             ],
                             "children": [
@@ -965,7 +971,7 @@
                                     "name": "sig plat",
                                     "type": "signal",
                                     "size": "platoon",
-                                    "men": "24",
+                                    "men": 24,
                                     "equipment": [
                                         {
                                             "n": 2,
@@ -989,7 +995,7 @@
                                     "name": "cav scout sq",
                                     "type": "cavalry scout",
                                     "size": "squad",
-                                    "men": "4",
+                                    "men": 4,
                                     "equipment": [
                                         {
                                             "n": 4,
@@ -1009,7 +1015,7 @@
                                     "name": "art obs plat",
                                     "type": "artillery observer",
                                     "size": "platoon",
-                                    "men": "12",
+                                    "men": 12,
                                     "equipment": [
                                         {
                                             "n": 1,
@@ -1033,7 +1039,7 @@
                                     "name": "ammo plat",
                                     "type": "ammunition",
                                     "size": "platoon",
-                                    "men": "28",
+                                    "men": 28,
                                     "equipment": [
                                         {
                                             "n": 1,
@@ -1057,7 +1063,7 @@
                                     "name": "tra sq",
                                     "type": "transport",
                                     "size": "squad",
-                                    "men": "10",
+                                    "men": 10,
                                     "equipment": [
                                         {
                                             "n": 3,
@@ -1095,9 +1101,9 @@
                             "children": [
                                 {
                                     "n": 1,
-                                    "type": "headquarters",
+                                    "type": "headquarters artillery",
                                     "size": "battery",
-                                    "men": "23",
+                                    "men": 23,
                                     "equipment": [
                                         {
                                             "n": 7,
@@ -1115,13 +1121,14 @@
                                             "n": 1,
                                             "name": "sub-machine gun"
                                         }
-                                    ]
+                                    ],
+                                    "name": "headquarters  artillery battery"
                                 },
                                 {
-                                    "n": "2",
+                                    "n": 2,
                                     "type": "artillery",
                                     "size": "platoon",
-                                    "men": "23",
+                                    "men": 23,
                                     "equipment": [
                                         {
                                             "n": 3,
@@ -1168,9 +1175,9 @@
                             "children": [
                                 {
                                     "n": 1,
-                                    "type": "headquarters",
+                                    "type": "headquarters semi-motorized heavy howitzer",
                                     "size": "battery",
-                                    "men": "24",
+                                    "men": 24,
                                     "equipment": [
                                         {
                                             "n": 7,
@@ -1192,13 +1199,14 @@
                                             "n": 1,
                                             "name": "sub-machine gun"
                                         }
-                                    ]
+                                    ],
+                                    "name": "headquarters  semi-motorized heavy howitzer battery"
                                 },
                                 {
-                                    "n": "2",
+                                    "n": 2,
                                     "type": "semi-motorized heavy howitzer",
                                     "size": "platoon",
-                                    "men": "23",
+                                    "men": 23,
                                     "equipment": [
                                         {
                                             "n": 3,
@@ -1243,7 +1251,7 @@
                     "name": "Service Platoon",
                     "type": "service",
                     "size": "platoon",
-                    "men": "54",
+                    "men": 54,
                     "equipment": [
                         {
                             "n": 7,
@@ -1279,7 +1287,7 @@
                     "name": "Semi-Motorized Transport Platoon",
                     "type": "semi-motorized transport",
                     "size": "platoon",
-                    "men": "46",
+                    "men": 46,
                     "equipment": [
                         {
                             "n": 3,
@@ -1317,10 +1325,10 @@
             "size": "battalion",
             "children": [
                 {
-                    "name": "semi-mot hq bat",
-                    "type": "semi-motorized headquarters",
+                    "name": "headquarters semi-motorized anti-tank artillery battalion",
+                    "type": "headquarters semi-motorized anti-tank artillery",
                     "size": "battalion",
-                    "men": "7",
+                    "men": 7,
                     "equipment": [],
                     "replicate": [
                         "semi-mot hq bat",
@@ -1331,7 +1339,7 @@
                             "name": "mot signal sq",
                             "type": "motorized signal",
                             "size": "squad",
-                            "men": "4",
+                            "men": 4,
                             "equipment": [
                                 {
                                     "n": 2,
@@ -1351,7 +1359,7 @@
                             "name": "cav scout sq",
                             "type": "cavalry scout",
                             "size": "squad",
-                            "men": "8",
+                            "men": 8,
                             "equipment": [
                                 {
                                     "n": 3,
@@ -1373,9 +1381,9 @@
                     "children": [
                         {
                             "n": 1,
-                            "type": "headquarters",
+                            "type": "headquarters motorized anti-tank",
                             "size": "company",
-                            "men": "13",
+                            "men": 13,
                             "equipment": [
                                 {
                                     "n": 1,
@@ -1385,25 +1393,27 @@
                                     "n": 1,
                                     "name": "sub-machine gun"
                                 }
-                            ]
+                            ],
+                            "name": "headquarters  motorized anti-tank company"
                         },
                         {
-                            "n": "2",
+                            "n": 2,
                             "type": "motorized anti-tank",
                             "size": "platoon",
                             "children": [
                                 {
                                     "n": 1,
-                                    "type": "headquarters",
+                                    "type": "headquarters motorized anti-tank",
                                     "size": "platoon",
-                                    "men": "3",
-                                    "equipment": []
+                                    "men": 3,
+                                    "equipment": [],
+                                    "name": "headquarters  motorized anti-tank platoon"
                                 },
                                 {
-                                    "n": "2",
+                                    "n": 2,
                                     "type": "motorized anti-tank",
                                     "size": "squad",
-                                    "men": "6",
+                                    "men": 6,
                                     "equipment": [
                                         {
                                             "n": 6,
@@ -1439,33 +1449,35 @@
                     "children": [
                         {
                             "n": 1,
-                            "type": "headquarters",
+                            "type": "headquarters motorized anti-tank-rifle",
                             "size": "company",
-                            "men": "3",
-                            "equipment": []
+                            "men": 3,
+                            "equipment": [],
+                            "name": "headquarters  motorized anti-tank-rifle company"
                         },
                         {
-                            "n": "4",
+                            "n": 4,
                             "type": "motorized anti-tank-rifle",
                             "size": "platoon",
                             "children": [
                                 {
                                     "n": 1,
-                                    "type": "headquarters",
+                                    "type": "headquarters motorized anti-tank-rifle",
                                     "size": "platoon",
-                                    "men": "1",
+                                    "men": 1,
                                     "equipment": [
                                         {
                                             "n": 1,
                                             "name": "sub-machine gun"
                                         }
-                                    ]
+                                    ],
+                                    "name": "headquarters  motorized anti-tank-rifle platoon"
                                 },
                                 {
-                                    "n": "3",
+                                    "n": 3,
                                     "type": "motorized anti-tank-rifle",
                                     "size": "squad",
-                                    "men": "7",
+                                    "men": 7,
                                     "equipment": [
                                         {
                                             "n": 1,
@@ -1495,7 +1507,7 @@
                     "name": "Mot TRA Squad",
                     "type": "motorized transport",
                     "size": "squad",
-                    "men": "5",
+                    "men": 5,
                     "equipment": [
                         {
                             "n": 1,
@@ -1511,7 +1523,7 @@
                     "name": "Mot Ammo Squad",
                     "type": "motorized ammunition",
                     "size": "squad",
-                    "men": "7",
+                    "men": 7,
                     "equipment": [
                         {
                             "n": 3,
@@ -1533,21 +1545,21 @@
             "size": "battalion",
             "children": [
                 {
-                    "name": "hq bat",
-                    "type": "headquarters",
+                    "name": "headquarters  self-propelled gun battalion",
+                    "type": "headquarters self-propelled gun",
                     "size": "battalion",
-                    "men": "7",
+                    "men": 7,
                     "equipment": [],
                     "replicate": [
-                        "hq bat",
+                        "hq",
                         "7"
                     ],
                     "children": [
                         {
-                            "name": "mot hq bat",
-                            "type": "motorized headquarters",
+                            "name": "headquarters motorized headquarters self-propelled gun battalion",
+                            "type": "headquarters motorized headquarters self-propelled gun",
                             "size": "battalion",
-                            "men": "4",
+                            "men": 4,
                             "equipment": [
                                 {
                                     "n": 1,
@@ -1555,7 +1567,7 @@
                                 }
                             ],
                             "replicate": [
-                                "mot hq bat",
+                                "mot hq",
                                 "4,truck:1"
                             ]
                         },
@@ -1563,7 +1575,7 @@
                             "name": "signal sq",
                             "type": "signal",
                             "size": "squad",
-                            "men": "5",
+                            "men": 5,
                             "equipment": [],
                             "replicate": [
                                 "signal sq",
@@ -1574,7 +1586,7 @@
                             "name": "cav sq",
                             "type": "cavalry",
                             "size": "squad",
-                            "men": "10",
+                            "men": 10,
                             "equipment": [],
                             "replicate": [
                                 "cav sq",
@@ -1585,7 +1597,7 @@
                             "name": "sp sq",
                             "type": "self-propelled",
                             "size": "squad",
-                            "men": "4",
+                            "men": 4,
                             "equipment": [
                                 {
                                     "n": 1,
@@ -1607,16 +1619,17 @@
                     "children": [
                         {
                             "n": 1,
-                            "type": "headquarters",
+                            "type": "headquarters self-propelled gun",
                             "size": "battery",
-                            "men": "2",
-                            "equipment": []
+                            "men": 2,
+                            "equipment": [],
+                            "name": "headquarters  self-propelled gun battery"
                         },
                         {
-                            "n": "5",
+                            "n": 5,
                             "type": "self-propelled gun",
                             "size": "squad",
-                            "men": "4",
+                            "men": 4,
                             "equipment": [
                                 {
                                     "n": 1,
@@ -1639,7 +1652,7 @@
                     "name": "main plat",
                     "type": "maintenance",
                     "size": "platoon",
-                    "men": "30",
+                    "men": 30,
                     "equipment": [],
                     "replicate": [
                         "main plat",
@@ -1650,7 +1663,7 @@
                     "name": "ammo plat",
                     "type": "ammunition",
                     "size": "platoon",
-                    "men": "22",
+                    "men": 22,
                     "equipment": [],
                     "replicate": [
                         "ammo plat",
@@ -1661,7 +1674,7 @@
                     "name": "fuel plat",
                     "type": "fuel",
                     "size": "platoon",
-                    "men": "10",
+                    "men": 10,
                     "equipment": [],
                     "replicate": [
                         "fuel plat",
@@ -1672,7 +1685,7 @@
                     "name": "supp plat",
                     "type": "supply",
                     "size": "platoon",
-                    "men": "10",
+                    "men": 10,
                     "equipment": [],
                     "replicate": [
                         "supp plat",
@@ -1683,7 +1696,7 @@
                     "name": "hosp plat",
                     "type": "hospital",
                     "size": "platoon",
-                    "men": "7",
+                    "men": 7,
                     "equipment": [],
                     "replicate": [
                         "hosp plat",
@@ -1700,36 +1713,36 @@
             "size": "battalion",
             "children": [
                 {
-                    "name": "hq bat",
-                    "type": "headquarters",
+                    "name": "headquarters  engineer battalion",
+                    "type": "headquarters engineer",
                     "size": "battalion",
-                    "men": "\u00c3\u02dc",
+                    "men": "\u00d8",
                     "equipment": [],
                     "replicate": [
-                        "hq bat",
-                        "\u00c3\u02dc"
+                        "hq",
+                        "\u00d8"
                     ],
                     "children": [
                         {
-                            "name": "hq staff undefined",
-                            "type": "headquarters staff",
-                            "size": "undefined",
-                            "men": "\u00c3\u02dc",
+                            "name": "headquarters  headquarters engineer battalion",
+                            "type": "headquarters headquarters engineer",
+                            "size": "battalion",
+                            "men": "\u00d8",
                             "equipment": [],
                             "replicate": [
-                                "hq staff undefined",
-                                "\u00c3\u02dc"
+                                "hq staff",
+                                "\u00d8"
                             ]
                         },
                         {
                             "name": "semi-mot service and trans sq",
                             "type": "semi-motorized service and transport",
                             "size": "squad",
-                            "men": "\u00c3\u02dc",
+                            "men": "\u00d8",
                             "equipment": [],
                             "replicate": [
                                 "semi-mot service and trans sq",
-                                "\u00c3\u02dc"
+                                "\u00d8"
                             ]
                         }
                     ]
@@ -1741,24 +1754,25 @@
                     "children": [
                         {
                             "n": 1,
-                            "type": "headquarters",
+                            "type": "headquarters engineer",
                             "size": "company",
-                            "men": "\u00c3\u02dc",
-                            "equipment": []
+                            "men": "\u00d8",
+                            "equipment": [],
+                            "name": "headquarters  engineer company"
                         },
                         {
-                            "n": "3",
+                            "n": 3,
                             "type": "engineer",
                             "size": "squad",
-                            "men": "\u00c3\u02dc",
+                            "men": "\u00d8",
                             "equipment": []
                         }
                     ],
                     "replicate": [
                         "eng comp",
-                        "\u00c3\u02dc",
+                        "\u00d8",
                         "0_3",
-                        "0_\u00c3\u02dc"
+                        "0_\u00d8"
                     ]
                 }
             ]
@@ -1771,13 +1785,13 @@
             "size": "company",
             "children": [
                 {
-                    "name": "hq comp",
-                    "type": "headquarters",
+                    "name": "headquarters  anti-air machine gun company",
+                    "type": "headquarters anti-air machine gun",
                     "size": "company",
-                    "men": "7",
+                    "men": 7,
                     "equipment": [],
                     "replicate": [
-                        "hq comp",
+                        "hq",
                         "7"
                     ]
                 },
@@ -1785,7 +1799,7 @@
                     "name": "mot aa mg plat",
                     "type": "motorized anti-air machine gun",
                     "size": "platoon",
-                    "men": "14",
+                    "men": 14,
                     "equipment": [
                         {
                             "n": 3,
@@ -1805,7 +1819,7 @@
                     "name": "sup sq",
                     "type": "supply",
                     "size": "squad",
-                    "men": "6",
+                    "men": 6,
                     "equipment": [],
                     "replicate": [
                         "sup sq",
@@ -1822,32 +1836,32 @@
             "size": "battalion",
             "children": [
                 {
-                    "name": "Hq bat",
-                    "type": "headquarters",
+                    "name": "headquarters  signal battalion",
+                    "type": "headquarters signal",
                     "size": "battalion",
-                    "men": "7",
+                    "men": 7,
                     "equipment": [],
                     "replicate": [
-                        "Hq bat",
+                        "Hq",
                         "7"
                     ],
                     "children": [
                         {
-                            "name": "command hq undefined",
-                            "type": "command headquarters",
-                            "size": "undefined",
-                            "men": "2",
+                            "name": "headquarters command headquarters signal battalion",
+                            "type": "headquarters command headquarters signal",
+                            "size": "battalion",
+                            "men": 2,
                             "equipment": [],
                             "replicate": [
-                                "command hq undefined",
+                                "command hq",
                                 "2"
                             ]
                         },
                         {
-                            "name": "hq staff plat",
-                            "type": "headquarters staff",
-                            "size": "platoon",
-                            "men": "18",
+                            "name": "headquarters staff headquarters signal battalion",
+                            "type": "headquarters staff headquarters signal",
+                            "size": "battalion",
+                            "men": 18,
                             "equipment": [
                                 {
                                     "n": 2,
@@ -1863,7 +1877,7 @@
                             "name": "signal radio plat",
                             "type": "signal radio",
                             "size": "platoon",
-                            "men": "26",
+                            "men": 26,
                             "equipment": [
                                 {
                                     "n": 1,
@@ -1883,7 +1897,7 @@
                             "name": "signal courier plat",
                             "type": "signal courier",
                             "size": "platoon",
-                            "men": "16",
+                            "men": 16,
                             "equipment": [
                                 {
                                     "n": 5,
@@ -1903,7 +1917,7 @@
                     "size": "company",
                     "replicate": [
                         "signal Telephone Comp",
-                        "\u00c3\u02dc",
+                        "\u00d8",
                         "0_4"
                     ]
                 },
@@ -1911,7 +1925,7 @@
                     "name": "signal Telephone maint squad",
                     "type": "signal telephone maintenance",
                     "size": "squad",
-                    "men": "5",
+                    "men": 5,
                     "equipment": [],
                     "replicate": [
                         "signal Telephone maint squad",
@@ -1922,7 +1936,7 @@
                     "name": "supply squad",
                     "type": "supply",
                     "size": "squad",
-                    "men": "8.car",
+                    "men": "\u00d8",
                     "equipment": [
                         {
                             "n": 1,
@@ -1931,7 +1945,7 @@
                     ],
                     "replicate": [
                         "supply squad",
-                        "8.car,truck:1"
+                        "\u00d8,truck:1"
                     ]
                 }
             ]
@@ -1944,47 +1958,47 @@
             "size": "battalion",
             "children": [
                 {
-                    "name": "hq bat",
-                    "type": "headquarters",
+                    "name": "headquarters  medical battalion",
+                    "type": "headquarters medical",
                     "size": "battalion",
-                    "men": "\u00c3\u02dc",
+                    "men": "\u00d8",
                     "equipment": [],
                     "replicate": [
-                        "hq bat",
-                        "\u00c3\u02dc"
+                        "hq",
+                        "\u00d8"
                     ]
                 },
                 {
                     "name": "Medical Comp",
                     "type": "medical",
                     "size": "company",
-                    "men": "\u00c3\u02dc",
+                    "men": "\u00d8",
                     "equipment": [],
                     "replicate": [
                         "Medical Comp",
-                        "\u00c3\u02dc"
+                        "\u00d8"
                     ]
                 },
                 {
                     "name": "Field Hospital Plat",
                     "type": "field hospital",
                     "size": "platoon",
-                    "men": "\u00c3\u02dc",
+                    "men": "\u00d8",
                     "equipment": [],
                     "replicate": [
                         "Field Hospital Plat",
-                        "\u00c3\u02dc"
+                        "\u00d8"
                     ]
                 },
                 {
                     "name": "mot Ambulance Plat",
                     "type": "motorized ambulance",
                     "size": "platoon",
-                    "men": "\u00c3\u02dc",
+                    "men": "\u00d8",
                     "equipment": [],
                     "replicate": [
                         "mot Ambulance Plat",
-                        "\u00c3\u02dc"
+                        "\u00d8"
                     ]
                 }
             ]
@@ -1998,10 +2012,43 @@
             "children": []
         },
         {
+            "name": "headquarters  infantry division",
+            "type": "headquarters infantry",
+            "size": "division",
+            "men": "\u00d8",
+            "equipment": [],
+            "replicate": [
+                "hq",
+                "\u00d8"
+            ]
+        },
+        {
+            "name": "headquarters  infantry division",
+            "type": "headquarters infantry",
+            "size": "division",
+            "men": "\u00d8",
+            "equipment": [],
+            "replicate": [
+                "hq",
+                "\u00d8"
+            ]
+        },
+        {
+            "name": "headquarters  infantry division",
+            "type": "headquarters infantry",
+            "size": "division",
+            "men": "\u00d8",
+            "equipment": [],
+            "replicate": [
+                "hq",
+                "\u00d8"
+            ]
+        },
+        {
             "name": "Recon Company",
             "type": "reconnaissance",
             "size": "company",
-            "men": "74",
+            "men": 74,
             "equipment": [
                 {
                     "n": 88,
@@ -2021,51 +2068,51 @@
             "name": "semi-mot chemical comp",
             "type": "semi-motorized chemical",
             "size": "company",
-            "men": "\u00c3\u02dc",
+            "men": "\u00d8",
             "equipment": [],
             "replicate": [
                 "semi-mot chemical comp",
-                "\u00c3\u02dc"
+                "\u00d8"
             ]
         },
         {
             "name": "mot tra comp",
             "type": "motorized transport",
             "size": "company",
-            "men": "\u00c3\u02dc",
+            "men": "\u00d8",
             "equipment": [],
             "replicate": [
                 "mot tra comp",
-                "\u00c3\u02dc"
+                "\u00d8"
             ]
         },
         {
             "name": "veterinary plat",
             "type": "veterinary",
             "size": "platoon",
-            "men": "\u00c3\u02dc",
+            "men": "\u00d8",
             "equipment": [],
             "replicate": [
                 "veterinary plat",
-                "\u00c3\u02dc"
+                "\u00d8"
             ]
         },
         {
             "name": "mot baker plat",
             "type": "motorized baker",
             "size": "platoon",
-            "men": "\u00c3\u02dc",
+            "men": "\u00d8",
             "equipment": [],
             "replicate": [
                 "mot baker plat",
-                "\u00c3\u02dc"
+                "\u00d8"
             ]
         },
         {
             "name": "field training comp",
             "type": "field training",
             "size": "company",
-            "men": "\u00c3\u02dc",
+            "men": "\u00d8",
             "equipment": [
                 {
                     "n": 5,
@@ -2090,18 +2137,18 @@
             ],
             "replicate": [
                 "field training comp",
-                "\u00c3\u02dc,light machine gun:5,anti-tank-rifle:2,50mm mortar:2,82mm mortar:2,45mm atg:2"
+                "\u00d8,light machine gun:5,anti-tank-rifle:2,50mm mortar:2,82mm mortar:2,45mm atg:2"
             ]
         },
         {
             "name": "judge advocate general comp",
             "type": "judge advocate general",
             "size": "company",
-            "men": "\u00c3\u02dc",
+            "men": "\u00d8",
             "equipment": [],
             "replicate": [
                 "judge advocate general comp",
-                "\u00c3\u02dc"
+                "\u00d8"
             ]
         }
     ]
