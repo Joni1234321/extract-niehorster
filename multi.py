@@ -114,7 +114,7 @@ def setHQNameToParents(organization):
                         name_list.remove(w)
 
                 # Set types
-                org["type"] = " ".join([" ".join(name_list), elongate_word("hq"), parent["type"]])
+                org["type"] = " ".join(name_list + [elongate_word("hq"), parent["type"]])
                 org["size"] = parent["size"]
                 org["name"] = " ".join([org["type"], org["size"]])
 
