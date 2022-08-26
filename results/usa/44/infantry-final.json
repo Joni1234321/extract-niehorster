@@ -1,0 +1,840 @@
+{
+    "_id": {
+        "$oid": "63035c2fbb33d1c8cf10d3a5"
+    },
+    "schema_version": 1,
+    "country": "usa",
+    "year": "1944",
+    "name": "Infantry Division",
+    "link": "div-inf.html",
+    "type": "infantry",
+    "size": "division",
+    "children": [
+        {
+            "name": "motorized artillery brigade",
+            "type": "motorized artillery",
+            "size": "brigade",
+            "men": "\u00d8",
+            "equipment": [],
+            "replicate": [
+                "mot art bri",
+                "\u00d8"
+            ],
+            "children": [
+                {
+                    "n": 3,
+                    "name": "motorized artillery battalion",
+                    "type": "motorized artillery",
+                    "size": "battalion",
+                    "men": "0",
+                    "equipment": [],
+                    "notes": "",
+                    "replicate": [
+                        "mot art bat",
+                        "0",
+                        "0",
+                        "0",
+                        "",
+                        "3"
+                    ],
+                    "children": [
+                        {
+                            "n": 3,
+                            "name": "motorized artillery battery",
+                            "type": "motorized artillery",
+                            "size": "battery",
+                            "men": "0",
+                            "equipment": [],
+                            "notes": "",
+                            "replicate": [
+                                "mot art battery",
+                                "0",
+                                "0",
+                                "0",
+                                "",
+                                "3"
+                            ],
+                            "children": [
+                                {
+                                    "name": "headquarters battery",
+                                    "type": "headquarters",
+                                    "size": "battery",
+                                    "men": "12",
+                                    "equipment": [],
+                                    "replicate": [
+                                        "hq battery",
+                                        "12"
+                                    ]
+                                },
+                                {
+                                    "name": "motorized battery detail unknown",
+                                    "type": "motorized battery detail",
+                                    "size": "unknown",
+                                    "men": "26",
+                                    "equipment": [
+                                        {
+                                            "n": 2,
+                                            "name": ".25t truck"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": ".75t carrier (cmd)"
+                                        },
+                                        {
+                                            "n": 2,
+                                            "name": ".75t carrier (wpns)"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": "2.5t truck (cargo)"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": ".25t trailer"
+                                        },
+                                        {
+                                            "n": 2,
+                                            "name": "machine gun"
+                                        },
+                                        {
+                                            "n": 2,
+                                            "name": "anti-tank-rocket-launcher"
+                                        }
+                                    ],
+                                    "replicate": [
+                                        "mot battery detail unknown",
+                                        "26,.25t truck:2,.75t carrier (cmd):1,.75t carrier (wpns):2,2.5t truck (cargo):1,.25t trailer:1,machine gun:2,anti-tank-rocket-launcher:2"
+                                    ]
+                                },
+                                {
+                                    "name": "motorized artillery platoon",
+                                    "type": "motorized artillery",
+                                    "size": "platoon",
+                                    "children": [
+                                        {
+                                            "name": "motorized ammunition squad",
+                                            "type": "motorized ammunition",
+                                            "size": "squad",
+                                            "men": "10",
+                                            "equipment": [
+                                                {
+                                                    "n": 2,
+                                                    "name": "2.5t truck (cargo)"
+                                                },
+                                                {
+                                                    "n": 2,
+                                                    "name": "2t trailer (ammo)"
+                                                },
+                                                {
+                                                    "n": 1,
+                                                    "name": "anti-tank-rocket-launcher"
+                                                },
+                                                {
+                                                    "n": 2,
+                                                    "name": "machine gun"
+                                                }
+                                            ],
+                                            "replicate": [
+                                                "mot ammo sq",
+                                                "10,2.5t truck (cargo):2,2t trailer (ammo):2,anti-tank-rocket-launcher:1,machine gun:2"
+                                            ]
+                                        }
+                                    ],
+                                    "replicate": [
+                                        "mot art plat",
+                                        "10,2.5ton truck (cargo):1,105mm howitzer:1,anti-tank-rocket-launcher:1",
+                                        "4",
+                                        "3,0.25t truck:1,0.75t carrier (cmd):1"
+                                    ]
+                                },
+                                {
+                                    "name": "motorized maintenance squad",
+                                    "type": "motorized maintenance",
+                                    "size": "squad",
+                                    "men": "9",
+                                    "equipment": [
+                                        {
+                                            "n": 1,
+                                            "name": ".75t carrier (wpns)"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": "2.5t truck (kitchen)"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": ".25t trailer"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": "1t trailer (cargo)"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": "anti-tank-rocket-launcher"
+                                        }
+                                    ],
+                                    "replicate": [
+                                        "mot maint sq",
+                                        "9,.75t carrier (wpns):1,2.5t truck (kitchen):1,.25t trailer:1,1t trailer (cargo):1,anti-tank-rocket-launcher:1"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "motorized service battery",
+                            "type": "motorized service",
+                            "size": "battery",
+                            "men": "\u00d8",
+                            "equipment": [],
+                            "replicate": [
+                                "mot service battery",
+                                "\u00d8"
+                            ],
+                            "children": [
+                                {
+                                    "name": "motorized headquarters battery",
+                                    "type": "motorized headquarters",
+                                    "size": "battery",
+                                    "men": "12",
+                                    "equipment": [
+                                        {
+                                            "n": 1,
+                                            "name": ".75 truck (cmd)"
+                                        }
+                                    ],
+                                    "replicate": [
+                                        "mot hq battery",
+                                        "12,.75 truck (cmd):1"
+                                    ]
+                                },
+                                {
+                                    "name": "motorized service platoon",
+                                    "type": "motorized service",
+                                    "size": "platoon",
+                                    "men": "\u00d8",
+                                    "equipment": [],
+                                    "replicate": [
+                                        "mot service plat",
+                                        "\u00d8"
+                                    ],
+                                    "children": [
+                                        {
+                                            "name": "motorized battalion supply squad",
+                                            "type": "motorized battalion supply",
+                                            "size": "squad",
+                                            "men": "6",
+                                            "equipment": [
+                                                {
+                                                    "n": 1,
+                                                    "name": "2.5t truck (cargo)"
+                                                },
+                                                {
+                                                    "n": 1,
+                                                    "name": "1t trailer (cargo)"
+                                                },
+                                                {
+                                                    "n": 1,
+                                                    "name": "anti-tank-rocket-launcher"
+                                                }
+                                            ],
+                                            "replicate": [
+                                                "mot bat supply sq",
+                                                "6,2.5t truck (cargo):1,1t trailer (cargo):1,anti-tank-rocket-launcher:1"
+                                            ]
+                                        },
+                                        {
+                                            "name": "motorized battalion maintenance squad",
+                                            "type": "motorized battalion maintenance",
+                                            "size": "squad",
+                                            "men": "10",
+                                            "equipment": [
+                                                {
+                                                    "n": 1,
+                                                    "name": ".25t truck"
+                                                },
+                                                {
+                                                    "n": 2,
+                                                    "name": "2.5t truck (cargo)"
+                                                },
+                                                {
+                                                    "n": 1,
+                                                    "name": "1t trailer (cargo)"
+                                                },
+                                                {
+                                                    "n": 1,
+                                                    "name": "machine gun"
+                                                },
+                                                {
+                                                    "n": 1,
+                                                    "name": "anti-tank-rocket-launcher"
+                                                }
+                                            ],
+                                            "replicate": [
+                                                "mot bat maint sq",
+                                                "10,.25t truck:1,2.5t truck (cargo):2,1t trailer (cargo):1,machine gun:1,anti-tank-rocket-launcher:1"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "motorized ammunition train platoon",
+                                    "type": "motorized ammunition train",
+                                    "size": "platoon",
+                                    "children": [
+                                        {
+                                            "n": 1,
+                                            "type": "headquarters",
+                                            "size": "platoon",
+                                            "men": "8",
+                                            "equipment": [
+                                                {
+                                                    "n": 1,
+                                                    "name": ".25 truck"
+                                                },
+                                                {
+                                                    "n": 1,
+                                                    "name": ".75t carrier (cmd)"
+                                                },
+                                                {
+                                                    "n": 2,
+                                                    "name": "machine gun"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "n": "3",
+                                            "type": "motorized ammunition train",
+                                            "size": "squad",
+                                            "men": "10",
+                                            "equipment": [
+                                                {
+                                                    "n": 3,
+                                                    "name": "2.5t truck (cargo)"
+                                                },
+                                                {
+                                                    "n": 3,
+                                                    "name": "2t trailer (ammo)"
+                                                },
+                                                {
+                                                    "n": 2,
+                                                    "name": "anti-tank-rocket-launcher"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "replicate": [
+                                        "mot ammo train plat",
+                                        "10,2.5t truck (cargo):3,2t trailer (ammo):3,anti-tank-rocket-launcher:2",
+                                        "3",
+                                        "8,.25 truck:1,.75t carrier (cmd):1,machine gun:2"
+                                    ]
+                                },
+                                {
+                                    "name": "motorized battery maintenance squad",
+                                    "type": "motorized battery maintenance",
+                                    "size": "squad",
+                                    "men": "11",
+                                    "equipment": [
+                                        {
+                                            "n": 1,
+                                            "name": ".75t carrier (wpns)"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": "2.5t truck (kitchen)"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": ".25t trailer"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": "1t trailer (cargo)"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": "machine gun"
+                                        },
+                                        {
+                                            "n": 2,
+                                            "name": "anti-tank-rocket-launcher"
+                                        }
+                                    ],
+                                    "replicate": [
+                                        "mot battery maint sq",
+                                        "11,.75t carrier (wpns):1,2.5t truck (kitchen):1,.25t trailer:1,1t trailer (cargo):1,machine gun:1,anti-tank-rocket-launcher:2"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "headquarters battalion",
+                            "type": "headquarters",
+                            "size": "battalion",
+                            "men": "8",
+                            "equipment": [],
+                            "replicate": [
+                                "hq bat",
+                                "8"
+                            ]
+                        },
+                        {
+                            "name": "motorized headquarters battalion",
+                            "type": "motorized headquarters",
+                            "size": "battalion",
+                            "men": "\u00d8",
+                            "equipment": [],
+                            "replicate": [
+                                "mot hq bat",
+                                "\u00d8"
+                            ],
+                            "children": [
+                                {
+                                    "name": "headquarters battery",
+                                    "type": "headquarters",
+                                    "size": "battery",
+                                    "men": "15",
+                                    "equipment": [],
+                                    "replicate": [
+                                        "hq battery",
+                                        "15"
+                                    ]
+                                },
+                                {
+                                    "name": "motorized maintenance squad",
+                                    "type": "motorized maintenance",
+                                    "size": "squad",
+                                    "men": "16",
+                                    "equipment": [
+                                        {
+                                            "n": 2,
+                                            "name": ".25t truck"
+                                        },
+                                        {
+                                            "n": 2,
+                                            "name": ".75t carrier (wpns)"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": "2.5t truck (kitchen)"
+                                        },
+                                        {
+                                            "n": 2,
+                                            "name": ".25t trailer"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": "1t trailer (cargo)"
+                                        },
+                                        {
+                                            "n": 2,
+                                            "name": "machine gun"
+                                        },
+                                        {
+                                            "n": 2,
+                                            "name": "anti-tank-rocket-launcher"
+                                        }
+                                    ],
+                                    "replicate": [
+                                        "mot maint sq",
+                                        "16,.25t truck:2,.75t carrier (wpns):2,2.5t truck (kitchen):1,.25t trailer:2,1t trailer (cargo):1,machine gun:2,anti-tank-rocket-launcher:2"
+                                    ]
+                                },
+                                {
+                                    "name": "motorized personnel squad",
+                                    "type": "motorized personnel",
+                                    "size": "squad",
+                                    "men": "15",
+                                    "equipment": [],
+                                    "replicate": [
+                                        "mot personnel sq",
+                                        "15"
+                                    ]
+                                },
+                                {
+                                    "name": "motorized operations platoon",
+                                    "type": "motorized operations",
+                                    "size": "platoon",
+                                    "men": "\u00d8",
+                                    "equipment": [],
+                                    "replicate": [
+                                        "mot operations plat",
+                                        "\u00d8"
+                                    ],
+                                    "children": [
+                                        {
+                                            "name": "motorized operations-&-fire-direction squad",
+                                            "type": "motorized operations-&-fire-direction",
+                                            "size": "squad",
+                                            "men": "22",
+                                            "equipment": [
+                                                {
+                                                    "n": 2,
+                                                    "name": ".25t truck"
+                                                },
+                                                {
+                                                    "n": 3,
+                                                    "name": ".75t carrier (cmd)"
+                                                },
+                                                {
+                                                    "n": 1,
+                                                    "name": "2.5t truck (cargo)"
+                                                },
+                                                {
+                                                    "n": 1,
+                                                    "name": "1t trailer (cargo)"
+                                                },
+                                                {
+                                                    "n": 2,
+                                                    "name": "machine gun"
+                                                },
+                                                {
+                                                    "n": 2,
+                                                    "name": "anti-tank-rocket-launcher"
+                                                },
+                                                {
+                                                    "n": 2,
+                                                    "name": "aircraft (liaison)"
+                                                }
+                                            ],
+                                            "replicate": [
+                                                "mot operations-&-fire-direction sq",
+                                                "22,.25t truck:2,.75t carrier (cmd):3,2.5t truck (cargo):1,1t trailer (cargo):1,machine gun:2,anti-tank-rocket-launcher:2,aircraft (liaison):2"
+                                            ]
+                                        },
+                                        {
+                                            "name": "motorized instruments-&-survey squad",
+                                            "type": "motorized instruments-&-survey",
+                                            "size": "squad",
+                                            "men": "8",
+                                            "equipment": [
+                                                {
+                                                    "n": 1,
+                                                    "name": ".25t truck"
+                                                },
+                                                {
+                                                    "n": 1,
+                                                    "name": ".75t carrier (wpns)"
+                                                }
+                                            ],
+                                            "replicate": [
+                                                "mot instruments-&-survey sq",
+                                                "8,.25t truck:1,.75t carrier (wpns):1"
+                                            ]
+                                        },
+                                        {
+                                            "n": 3,
+                                            "name": "motorized liaison squad",
+                                            "type": "motorized liaison",
+                                            "size": "squad",
+                                            "men": "8",
+                                            "equipment": [
+                                                {
+                                                    "n": 2,
+                                                    "name": ".25t truck"
+                                                },
+                                                {
+                                                    "n": 1,
+                                                    "name": ".25t trailer"
+                                                }
+                                            ],
+                                            "notes": "",
+                                            "replicate": [
+                                                "mot liaison sq",
+                                                "8,.25t truck:2,.25t trailer:1",
+                                                "0",
+                                                "0",
+                                                "",
+                                                "3"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "motorized signal comm platoon",
+                                    "type": "motorized signal comm",
+                                    "size": "platoon",
+                                    "men": "\u00d8",
+                                    "equipment": [],
+                                    "replicate": [
+                                        "mot sig comm plat",
+                                        "\u00d8"
+                                    ],
+                                    "children": [
+                                        {
+                                            "name": "motorized headquarters platoon",
+                                            "type": "motorized headquarters",
+                                            "size": "platoon",
+                                            "men": "4",
+                                            "equipment": [],
+                                            "replicate": [
+                                                "mot hq plat",
+                                                "4"
+                                            ]
+                                        },
+                                        {
+                                            "name": "motorized signal wire",
+                                            "type": "motorized signal",
+                                            "size": "wire",
+                                            "men": "25",
+                                            "equipment": [
+                                                {
+                                                    "n": 1,
+                                                    "name": ".25t truck"
+                                                },
+                                                {
+                                                    "n": 3,
+                                                    "name": ".75t carrier (wpns)"
+                                                },
+                                                {
+                                                    "n": 1,
+                                                    "name": "2.5t truck (cargo)"
+                                                },
+                                                {
+                                                    "n": 1,
+                                                    "name": "anti-tank-rocket-launcher"
+                                                }
+                                            ],
+                                            "replicate": [
+                                                "mot sig wire",
+                                                "25,.25t truck:1,.75t carrier (wpns):3,2.5t truck (cargo):1,anti-tank-rocket-launcher:1"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "motorized medium artillery battalion",
+                    "type": "motorized medium artillery",
+                    "size": "battalion",
+                    "men": "\u00d8",
+                    "equipment": [],
+                    "replicate": [
+                        "mot m art bat",
+                        "\u00d8"
+                    ],
+                    "children": [
+                        {
+                            "n": 3,
+                            "name": "motorized medium artillery battery",
+                            "type": "motorized medium artillery",
+                            "size": "battery",
+                            "men": "0",
+                            "equipment": [],
+                            "notes": "",
+                            "replicate": [
+                                "mot m art battery",
+                                "0",
+                                "0",
+                                "0",
+                                "",
+                                "3"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "headquarters brigade",
+                    "type": "headquarters",
+                    "size": "brigade",
+                    "men": "8",
+                    "equipment": [],
+                    "replicate": [
+                        "hq bri",
+                        "8"
+                    ]
+                },
+                {
+                    "name": "motorized headquarters brigade",
+                    "type": "motorized headquarters",
+                    "size": "brigade",
+                    "men": "\u00d8",
+                    "equipment": [],
+                    "replicate": [
+                        "mot hq bri",
+                        "\u00d8"
+                    ],
+                    "children": [
+                        {
+                            "name": "motorized maintenance squad",
+                            "type": "motorized maintenance",
+                            "size": "squad",
+                            "men": "17",
+                            "equipment": [
+                                {
+                                    "n": 1,
+                                    "name": ".75t carrier (wpns)"
+                                },
+                                {
+                                    "n": 1,
+                                    "name": "2.5t truck (kitchen)"
+                                },
+                                {
+                                    "n": 1,
+                                    "name": "2.5t truck (cargo)"
+                                },
+                                {
+                                    "n": 1,
+                                    "name": ".25t trailer"
+                                },
+                                {
+                                    "n": 2,
+                                    "name": "1t trailer (cargo)"
+                                },
+                                {
+                                    "n": 2,
+                                    "name": "machine gun"
+                                },
+                                {
+                                    "n": 1,
+                                    "name": "anti-tank-rocket-launcher"
+                                }
+                            ],
+                            "replicate": [
+                                "mot maint sq",
+                                "17,.75t carrier (wpns):1,2.5t truck (kitchen):1,2.5t truck (cargo):1,.25t trailer:1,1t trailer (cargo):2,machine gun:2,anti-tank-rocket-launcher:1"
+                            ]
+                        },
+                        {
+                            "name": "motorized operations platoon",
+                            "type": "motorized operations",
+                            "size": "platoon",
+                            "replicate": [
+                                "mot operations plat",
+                                "17,.25t truck:1,.75t carrier (cmd):4,2.5t truck (cargo):1,1t trailer (cargo):1,anti-tank-rocket-launcher:2,aircraft (liaisen):2",
+                                "1"
+                            ],
+                            "children": [
+                                {
+                                    "name": "motorized instrument-&-survey squad",
+                                    "type": "motorized instrument-&-survey",
+                                    "size": "squad",
+                                    "men": "11",
+                                    "equipment": [
+                                        {
+                                            "n": 1,
+                                            "name": ".75t carrier (wpns)"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": ".25t trailer"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": "machine gun"
+                                        }
+                                    ],
+                                    "replicate": [
+                                        "mot instrument-&-survey sq",
+                                        "11,.75t carrier (wpns):1,.25t trailer:1,machine gun:1"
+                                    ]
+                                },
+                                {
+                                    "name": "motorized meteorological squad",
+                                    "type": "motorized meteorological",
+                                    "size": "squad",
+                                    "men": "4",
+                                    "equipment": [
+                                        {
+                                            "n": 1,
+                                            "name": "2.5t truck (cargo)"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": "1t trailer (cargo)"
+                                        }
+                                    ],
+                                    "replicate": [
+                                        "mot meteorological sq",
+                                        "4,2.5t truck (cargo):1,1t trailer (cargo):1"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "motorized signal comm platoon",
+                            "type": "motorized signal comm",
+                            "size": "platoon",
+                            "men": "\u00d8",
+                            "equipment": [],
+                            "replicate": [
+                                "mot sig comm plat",
+                                "\u00d8"
+                            ],
+                            "children": [
+                                {
+                                    "name": "motorized headquarters platoon",
+                                    "type": "motorized headquarters",
+                                    "size": "platoon",
+                                    "men": "5",
+                                    "equipment": [
+                                        {
+                                            "n": 1,
+                                            "name": ".25 truck"
+                                        }
+                                    ],
+                                    "replicate": [
+                                        "mot hq plat",
+                                        "5,.25 truck:1"
+                                    ]
+                                },
+                                {
+                                    "name": "motorized signal radio squad",
+                                    "type": "motorized signal radio",
+                                    "size": "squad",
+                                    "men": "8",
+                                    "equipment": [
+                                        {
+                                            "n": 2,
+                                            "name": ".75t carrier (wpns)"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": "anti-tank-rocket-launcher"
+                                        }
+                                    ],
+                                    "replicate": [
+                                        "mot sig radio sq",
+                                        "8,.75t carrier (wpns):2,anti-tank-rocket-launcher:1"
+                                    ]
+                                },
+                                {
+                                    "name": "motorized signal wire squad",
+                                    "type": "motorized signal wire",
+                                    "size": "squad",
+                                    "men": "27",
+                                    "equipment": [
+                                        {
+                                            "n": 2,
+                                            "name": "0.75 carrier (wpns)"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": "2.5t truck (carg)"
+                                        },
+                                        {
+                                            "n": 2,
+                                            "name": "machine gun"
+                                        },
+                                        {
+                                            "n": 1,
+                                            "name": "anti-tank-rocket-launcher"
+                                        }
+                                    ],
+                                    "replicate": [
+                                        "mot sig wire sq",
+                                        "27,0.75 carrier (wpns):2,2.5t truck (carg):1,machine gun:2,anti-tank-rocket-launcher:1"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
